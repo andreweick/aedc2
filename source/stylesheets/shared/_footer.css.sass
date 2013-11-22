@@ -1,0 +1,19 @@
+.site-footer
+  @extend .container
+  border-top: 1px solid $border-gray
+  color: $light-gray
+  nav
+    font-size: .8em
+    font-weight: 300
+    ul
+      margin: 0
+    li
+      display: inline-block
+      padding: 0 1em 0 0
+      a
+        color: $light-gray
+        &:hover
+          text-decoration: none
+          color: lighten($blue, 10%)
+        &:before
+          display: none

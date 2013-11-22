@@ -1,0 +1,20 @@
+head
+  meta charset="utf-8"
+  meta http-equiv="X-UA-Compatible" content="IE=edge"
+  meta name="description" content=""
+  meta name="viewport" content="width=device-width, initial-scale=1"
+
+  title= current_page.data.title || ""
+
+  = javascript_include_tag "//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js", "data-turbolinks-track" => true
+  = javascript_include_tag "application", "data-turbolinks-track" => true
+  = stylesheet_link_tag "application", media: "all"
+
+  / Mapbox
+  = javascript_include_tag "http://api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.js"
+  = stylesheet_link_tag "http://api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.css"
+
+  /[if lt IE 9]
+    script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"
+  = stylesheet_link_tag "http://api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.ie.css"
+

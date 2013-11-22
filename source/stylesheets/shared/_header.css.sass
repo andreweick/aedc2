@@ -1,0 +1,29 @@
+.site-header
+  text-align: center
+  nav
+    border-bottom: 1px solid $border-gray
+    ul
+      display: block
+      width: 100%
+      margin: 1em auto
+    .left-nav
+      width: auto
+      float: left
+      margin: 0
+    li
+      display: inline-block
+      padding: 0
+      a
+        color: $light-gray
+        padding: 0 1em
+        font-size: .9em
+        &:hover
+          color: lighten($blue, 10%)
+      &.nav-home a
+        &:before
+          font-size: 1.33em
+          color: lighten($light-gray, 20%)
+        &:hover:before
+          color: lighten($blue, 10%)
+        span
+          display: none

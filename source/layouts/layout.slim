@@ -1,0 +1,10 @@
+doctype html
+html
+  = partial "shared/head"
+
+  body class=page_classes
+    = partial "shared/header"
+
+    .content= yield
+
+    = partial "shared/footer"
