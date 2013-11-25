@@ -14,52 +14,14 @@ body
 
 
 
-// Typography
-h1, h2, h3, h4, h5, h6
-  font-weight: 400
-  font-weight: bold
-  text-rendering: optimizeLegibility
-  margin-bottom: 0.5em
-h1
-  font-size: 2.75em
-  line-height: 1
-h2
-  font-size: 2em
-h3
-  font-size: 1.5em
-  line-height: 1
-h4
-  font-size: 1.5em
-  line-height: 1
-
-p
-  margin: 0 0 1.5em 0
-
-em
-  font-style: italic
-
-strong
-  font-weight: bold
-  font-family: 'Trebuchet MS',Candara,Georgia,Calibri,Corbel,serif
-
-a
-  color: $blue
-  text-decoration: none
-  outline: none
-  +transition(all, 100ms)
-  &:hover
-    color: lighten($blue, 10%)
-    text-decoration: none
-
-
-
 // Elements
 .container
+  display: block
   clear: both
   @extend .clearfix
-  max-width: 35em
+  max-width: 35rem
+  padding: 0 1rem
   margin: 0 auto
-  padding: 1em
 
 .content
   padding: 2.5em 0
@@ -71,22 +33,15 @@ figure
   padding: 1em 0
 
 .title
-  @extend .container
-  padding-bottom: 0
+  margin-bottom: 1em
   h1, h2
     font-weight: 200
 
 .pull-left
   float: left
 
-img.pull-left, .pull-left img
-  margin: 0 1em .5em 0
-
 .pull-right
   float: right
-
-img.pull-right, .pull-right img
-  margin: 0 0 .5em 1em
 
 img
   border: 0
@@ -101,8 +56,22 @@ ul
   nav &
     display: inline-block
 
-section
+section, aside
   @extend .container
+  padding: 0
+  margin-bottom: 5em
+
+aside
+  padding: .5em 1em
+  background: $offwhite
+
+.section-title
+  @extend small
+  border-top: 1px solid $border-gray
+  border-bottom: 1px solid $border-gray
+  text-transform: uppercase
+  padding: .25em 1em
+  margin-bottom: 1em
 
 *
   html .clearfix
@@ -160,17 +129,68 @@ hr
     background: lighten($blue, 10%)
 
 
+
+// Typography
+h1, h2, h3, h4, h5, h6
+  @extend .container
+  font-weight: 300
+  font-weight: normal
+  text-rendering: optimizeLegibility
+  margin-bottom: 0.5em
+h1
+  font-size: 2.75em
+  line-height: 1.15em
+  font-weight: 500
+  font-weight: bold
+h2
+  font-size: 2em
+  line-height: 1.15em
+h3
+  font-size: 1.5em
+  line-height: 1.15em
+h4
+  font-size: 1.5em
+  line-height: 1.15em
+
+p
+  @extend .container
+  clear: none
+  margin-bottom: 1.5em
+
+em
+  font-style: italic
+
+strong
+  font-weight: bold
+  font-family: 'Trebuchet MS',Candara,Georgia,Calibri,Corbel,serif
+
+a
+  color: $blue
+  text-decoration: none
+  outline: none
+  +transition(all, 100ms)
+  &:hover
+    color: lighten($blue, 10%)
+    text-decoration: none
+
+small
+  font-size: .8em
+  color: $light-gray
+
+
+
 // Forms
+form
+  @extend .container
+
 .control-group
   clear: both
   @extend .clearfix
   margin-bottom: .5em
 
 label
+  @extend small
   text-transform: uppercase
-  font-size: .8em
-  font-weight: 500
-  color: $light-gray
 
 input[type="text"], textarea
   border: 1px solid #CCC

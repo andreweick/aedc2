@@ -2,18 +2,6 @@ Time.zone = "UTC"
 
 page "/feed.xml", :layout => false
 
-# page "/path/to/file.html", :layout => false
-# page "/path/to/file.html", :layout => :otherlayout
-# with_layout :admin do
-#   page "/admin/*"
-# end
-
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
-
 set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
@@ -30,28 +18,41 @@ configure :build do
 end
 
 
+# Support for the old Liquid tags
+require "lib/liquid_vimeo"
+require "lib/liquid_photo"
+require "lib/liquid_photo2"
+
+
+# Ruby helpers to do the same thing
+require "lib/post_helpers"
+helpers PostHelpers
+
 
 # Multiple Blogs
+page "blog/*", :layout => :blog
 activate :blog do |blog|
   blog.name              = "blog"
   blog.prefix            = "blog"
-  blog.permalink         = "blog-:year-:month-:day-:title.html"
-  blog.taglink           = "tags/:tag.html"
+  blog.permalink         = ":year-:month-:day-:title.html"
   blog.tag_template      = "tag.html"
-  blog.calendar_template = "calendar.html"
+  blog.taglink           = "tags/:tag.html"
   # blog.summary_separator = /(READMORE)/
   # blog.summary_length    = 250
-  # blog.paginate          = true
   # blog.per_page          = 5
   # blog.page_link         = "page/:num"
 end
 
+page "blog2/*", :layout => :blog
 activate :blog do |blog|
   blog.name              = "blog2"
   blog.prefix            = "blog2"
+  blog.tag_template      = "tag.html"
 end
 
+page "blog3/*", :layout => :blog
 activate :blog do |blog|
   blog.name              = "blog3"
   blog.prefix            = "blog3"
+  blog.tag_template      = "tag.html"
 end
