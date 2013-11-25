@@ -10,11 +10,8 @@ head
   = javascript_include_tag "application", "data-turbolinks-track" => true
   = stylesheet_link_tag "application", media: "all"
 
-  / Mapbox
-  = javascript_include_tag "http://api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.js"
-  = stylesheet_link_tag "http://api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.css"
-
-  /[if lt IE 9]
-    script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"
-  = stylesheet_link_tag "http://api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.ie.css"
-
+  link href="/images/favicon.ico" rel="icon"
+  link href="/images/favicon-57x57.png" rel="apple-touch-icon"
+  link href="/images/favicon-72x72.png" rel="apple-touch-icon" sizes="72x72"
+  link href="/images/favicon-114x114.png" rel="apple-touch-icon" sizes="114x114"
+  link href="/images/favicon-144x144.png" rel="apple-touch-icon" sizes="144x144"
