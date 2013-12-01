@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery 
+
+	showAudioButton="false"
+	showInfoButton="false"
+	showNavButtons="false"
+	showAutoPlayButton="true"
+	backButtonPosition="NONE"
+	backButtonUseIcon="true"
+	galleryTitlePosition="OVERLAY"
+	showThumbPagingText="true"
+	maxThumbColumns="8"
+	enableDirectLinks="true"
+	useFullscreenExpand="true"
+	captionPosition="NONE"
+	galleryTitle="Kumon Awards"
+	enableLooping="true"
+	imageTransitionType="CROSS_FADE"
+	imagePreloading="NEXT"
+	thumbsPosition="BOTTOM"
+	showImageNumber="false"
+	buttonBarPosition="OVERLAY_IMAGE"
+	enableAutoPlay="true"
+	showExpandButton="true"
+	showThumbsButton="true"
+	showOpenButton="false"
+	autoPlayOnLoad="true"
+	showSmallThumbsOnLoad="false"
+	showThumbsOnLoad="false"
+	randomizeImages="true"
+
+>
+  <image imageURL="images/2013-05-20 | Kumon medals (1).jpg"
+	thumbURL="thumbs/2013-05-20 | Kumon medals (1).jpg"
+	linkURL="images/2013-05-20 | Kumon medals (1).jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/maeick/Dropbox/action/2013-08-10/2013-05-12 | Kumon awards/2013-05-20 | Kumon medals (1).jpg">
+    <title><![CDATA[2013-05-20 | Kumon medals (1)]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/2013-05-20 | Kumon medals (2).jpg"
+	thumbURL="thumbs/2013-05-20 | Kumon medals (2).jpg"
+	linkURL="images/2013-05-20 | Kumon medals (2).jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/maeick/Dropbox/action/2013-08-10/2013-05-12 | Kumon awards/2013-05-20 | Kumon medals (2).jpg">
+    <title><![CDATA[2013-05-20 | Kumon medals (2)]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/2013-05-20 | Kumon medals (3).jpg"
+	thumbURL="thumbs/2013-05-20 | Kumon medals (3).jpg"
+	linkURL="images/2013-05-20 | Kumon medals (3).jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/maeick/Dropbox/action/2013-08-10/2013-05-12 | Kumon awards/2013-05-20 | Kumon medals (3).jpg">
+    <title><![CDATA[2013-05-20 | Kumon medals (3)]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/2013-05-20 | Kumon medals (4).jpg"
+	thumbURL="thumbs/2013-05-20 | Kumon medals (4).jpg"
+	linkURL="images/2013-05-20 | Kumon medals (4).jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/maeick/Dropbox/action/2013-08-10/2013-05-12 | Kumon awards/2013-05-20 | Kumon medals (4).jpg">
+    <title><![CDATA[2013-05-20 | Kumon medals (4)]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/2013-05-20 | Kumon medals.jpg"
+	thumbURL="thumbs/2013-05-20 | Kumon medals.jpg"
+	linkURL="images/2013-05-20 | Kumon medals.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/maeick/Dropbox/action/2013-08-10/2013-05-12 | Kumon awards/2013-05-20 | Kumon medals.jpg">
+    <title><![CDATA[2013-05-20 | Kumon medals]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+</juiceboxgallery>
