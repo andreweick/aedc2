@@ -1,29 +1,62 @@
 .site-header
-  text-align: center
-  nav
-    border-bottom: 1px solid $border-gray
-    ul
-      display: block
-      width: 100%
-      margin: 1em auto
-    .left-nav
-      width: auto
+  .top-bar
+    height: 92px
+    padding: 10px 0
+    background: white
+    .logo
       float: left
+      display: block
+      height: 72px
+      width: 72px
       margin: 0
+      background: #eee image-url("apple-touch-icon-72.png") no-repeat
+      text-indent: 1000%
+      white-space: nowrap
+      overflow: hidden
+      @media only screen and (min-width: $break-medium)
+        margin-right: .5rem
+    h1, p
+      font-size: 1em
+      line-height: 1.2em
+      font-weight: light
+      color: #777
+    h1
+      padding-top: .5em
+      font-weight: bold
+      color: #3f2c22
+    p
+      font-size: .8em
+  nav
+    border-top: 1px solid $border-gray
+    border-bottom: 1px solid $border-gray
+    text-align: center
+    ul
+      display: inline-block
+      margin: 0 auto
+      @media only screen and (min-width: $break-large)
+        &.left-nav
+          width: auto
+          position: absolute
+          z-index: 2
+          left: 0
     li
       display: inline-block
-      padding: 0
+      padding: 0.25em 0
       a
         color: $light-gray
-        padding: 0 1em
-        font-size: .9em
+        padding: 0 2em
+        font-size: .75em
         &:hover
           color: lighten($blue, 10%)
-      &.nav-home a
-        &:before
-          font-size: 1.33em
-          color: lighten($light-gray, 20%)
-        &:hover:before
-          color: lighten($blue, 10%)
-        span
-          display: none
+        @media only screen and (max-width: $break-large)
+          padding: 0 .5em
+          span
+            display: none
+      @media only screen and (min-width: $break-large)
+        &.nav-home a
+          &:before
+            color: lighten($light-gray, 20%)
+          &:hover:before
+            color: lighten($blue, 10%)
+          span
+            display: none

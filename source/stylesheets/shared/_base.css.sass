@@ -5,9 +5,12 @@ body
   text-align: left
   color: $gray
   font-smoothing: antialiased
-  font-size: 18px
+  -webkit-font-smoothing: antialiased
+  font-size: 1.5em
   line-height: 1.66em
   cursor: default
+  @media only screen and (max-width: $break-small)
+    font-size: 1.25em
   *
     font-family: $sans-serif
     box-sizing: border-box
@@ -16,20 +19,18 @@ body
 
 // Elements
 .container
+  @extend .clearfix
   display: block
   clear: both
-  @extend .clearfix
-  max-width: 35rem
-  padding: 0 1rem
+  max-width: 50rem
   margin: 0 auto
 
 .content
-  padding: 2.5em 0
+  @extend .container
+  padding: 2.5em 1rem
 
 figure
   text-align: center
-  max-width: 50em
-  margin: 0 auto
   padding: 1em 0
 
 .title
@@ -46,6 +47,10 @@ figure
 img
   border: 0
   max-width: 100%
+  &.pull-left
+    margin: 0 1em .5em 0
+  &.pull-right
+    margin: 0 0 .5em 1em
 
 ul
   list-style: inside square
@@ -57,7 +62,6 @@ ul
     display: inline-block
 
 section, aside
-  @extend .container
   padding: 0
   margin-bottom: 5em
 
@@ -67,10 +71,11 @@ aside
 
 .section-title
   @extend small
+  line-height: 1em
   border-top: 1px solid $border-gray
   border-bottom: 1px solid $border-gray
   text-transform: uppercase
-  padding: .25em 1em
+  padding: .5em 0
   margin-bottom: 1em
 
 *
@@ -132,28 +137,25 @@ hr
 
 // Typography
 h1, h2, h3, h4, h5, h6
-  @extend .container
-  font-weight: 300
-  font-weight: normal
+  font-weight: light
   text-rendering: optimizeLegibility
-  margin-bottom: 0.5em
+  margin-bottom: 0.25em
 h1
   font-size: 2.75em
   line-height: 1.15em
   font-weight: 500
   font-weight: bold
 h2
-  font-size: 2em
+  font-size: 1.5em
   line-height: 1.15em
 h3
-  font-size: 1.5em
+  font-size: 1.25em
   line-height: 1.15em
 h4
-  font-size: 1.5em
+  font-size: 1.1em
   line-height: 1.15em
 
 p
-  @extend .container
   clear: none
   margin-bottom: 1.5em
 
@@ -174,15 +176,12 @@ a
     text-decoration: none
 
 small
-  font-size: .8em
+  font-size: .75em
   color: $light-gray
 
 
 
 // Forms
-form
-  @extend .container
-
 .control-group
   clear: both
   @extend .clearfix

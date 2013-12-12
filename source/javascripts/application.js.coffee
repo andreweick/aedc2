@@ -1,9 +1,7 @@
 ####
 # Vendor
 ####
-#= require turbolinks
-#= require bootstrap
-#= require vendor/nprogress
+#= require jquery
 #= require vendor/ss-standard
 #= require vendor/ss-symbolicons
 

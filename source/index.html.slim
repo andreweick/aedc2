@@ -1,47 +1,18 @@
 ---
 pageable: true
 per_page: 10
-blog: 'blog'
 ---
 
-.title
-  h1 Blog
+section.intro
+  h2 Greeting greeting greeting
+  p Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
 
-- page_articles.each_with_index do |article, i|
-  article
-    h2= link_to article.title, article
-    date= article.date.strftime('%b %e')
-    = article.body
 
-- if paginate
-  - if next_page
-    p= link_to 'Next page', next_page
-
-  aside
-    h2 Recent Articles
-    ol
-      - blog.articles[0...10].each do |article|
-        li
-          = link_to article.title, article
-          span= article.date.strftime('%b %e')
-
-      h2 Tags
-      ol
-        - blog.tags.each do |tag, articles|
-          li
-            = link_to tag, tag_path(tag)
-            = articles.size
-
-      h2 By Year
-      ol
-        - blog.articles.group_by {|a| a.date.year }.each do |year, articles|
-          li
-            = link_to year, blog_year_path(year)
-            = articles.size
-
-  - if num_pages > 1
-    p= "Page #{page_number} of #{num_pages}"
-
-    - if prev_page
-      p= link_to 'Previous page', prev_page
-
+- ["Eick Family", "Blog 2", "Blog 3"].each do |name|
+  - post = page_articles(name).first()
+  section
+    .section-title= name
+    article
+      h2= link_to post.title, post
+      date= post.date.strftime('%b %e')
+      //= first_post.body

@@ -1,8 +1,8 @@
 ---
-blog: 'blog'
+blog: 'Eick Family'
 ---
 
-h1.title Eick Family
+h1.title= current_page.data.blog
 
 - if page_articles.any?
   - page_articles.group_by {|a| a.date.year }.each do |year, articles|

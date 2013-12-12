@@ -41,6 +41,8 @@ GEM
     http_parser.rb (0.5.3)
     httpclient (2.3.4.1)
     i18n (0.6.5)
+    jquery-middleman (3.0.4)
+      thor (>= 0.14, < 2.0)
     json (1.8.1)
     kramdown (1.2.0)
     liquid (2.5.4)
@@ -126,6 +128,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  jquery-middleman (~> 3.0.4)
   liquid (~> 2.5.4)
   middleman (~> 3.2.0)
   middleman-blog (~> 3.4.1)
