@@ -16,19 +16,21 @@
       @media only screen and (min-width: $break-medium)
         margin-right: .5rem
     h1, p
-      font-size: 1em
-      line-height: 1.2em
+      font-size: 1.25em
+      line-height: 1.1em
       font-weight: light
       color: #777
     h1
-      padding-top: .5em
+      padding-top: .25em
       font-weight: bold
       color: #3f2c22
     p
-      font-size: .8em
+      font-size: 1em
+      @media only screen and (max-width: $break-small)
+        font-size: .75em
   nav
     border-top: 1px solid $border-gray
-    border-bottom: 1px solid $border-gray
+    border-bottom: 1px solid mix($border-gray, $background)
     text-align: center
     ul
       display: inline-block
@@ -44,12 +46,12 @@
       padding: 0.25em 0
       a
         color: $light-gray
-        padding: 0 2em
-        font-size: .75em
+        padding: 0 1em
+        font-size: .8em
         &:hover
           color: lighten($blue, 10%)
         @media only screen and (max-width: $break-large)
-          padding: 0 .5em
+          padding: 0 .35em
           span
             display: none
       @media only screen and (min-width: $break-large)
