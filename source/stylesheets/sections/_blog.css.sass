@@ -5,6 +5,9 @@ article
   .title
     margin-bottom: 1em
 
+  h2
+    font-weight: bold
+
   time, figcaption
     @extend small
 
@@ -22,6 +25,14 @@ article
     height: 100%
 
 .blog-list
+  @extend .list-simple
   article
+    position: relative
+    time
+      position: absolute
+      z-index: 2
+      width: 5em
+      line-height: 2.5em
     h2
+      padding-left: 2.5em
       margin-bottom: 0

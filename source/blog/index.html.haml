@@ -8,8 +8,9 @@ blog: 'Eick Family'
   - page_articles.group_by {|a| a.date.year }.each do |year, articles|
     %section
       .section-title= year
-      - articles.each_with_index do |article, i|
-        = partial "shared/post_index", locals: { article: article }
+      %ul.blog-list
+        - articles.each_with_index do |article, i|
+          %li= partial "shared/post_index", locals: { article: article }
 - else
   %section
     .section-title Articles

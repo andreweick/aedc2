@@ -62,8 +62,11 @@ ul
   nav &
     display: inline-block
 
-  &.list-inline
+  &.list-simple
     list-style: none
+
+  &.list-inline
+    @extend .list-simple
     margin: 0
     li
       float: left
@@ -81,10 +84,11 @@ aside
   @extend small
   display: block
   padding: .5em 0
-  border-bottom: 3px solid $border-gray
+  border-bottom: 5px solid mix($background, $border-gray)
   margin-bottom: 1em
   line-height: 1em
   font-weight: normal
+  text-transform: uppercase
 
 *
   html .clearfix
@@ -145,7 +149,7 @@ hr
 
 // Typography
 h1, h2, h3, h4, h5, h6
-  font-weight: light
+  font-weight: 200
   text-rendering: optimizeLegibility
   margin-bottom: 0.25em
 h1
@@ -178,13 +182,13 @@ a
   color: $blue
   text-decoration: none
   outline: none
-  +transition(all, 100ms)
+  +transition(color, 100ms)
   &:hover
     color: lighten($blue, 10%)
     text-decoration: none
 
 small
-  font-size: .8em
+  font-size: .75em
   color: $light-gray
 
 
