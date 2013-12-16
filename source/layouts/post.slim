@@ -3,9 +3,3 @@
     h1.title= current_page.data.title
     = yield
 
-  aside
-    - if current_page.data.categories.any?
-      label Categories: &nbsp;
-      - current_page.data.categories.each_with_index do |tag, i|
-        = link_to tag, "/blog/tags/#{tag}.html"
-        = ", " unless i == (current_page.data.categories.count - 1)

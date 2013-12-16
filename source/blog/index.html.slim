@@ -9,9 +9,7 @@ h1.title= current_page.data.blog
     section
       .section-title= year
       - articles.each_with_index do |article, i|
-        article
-          h2= link_to article.title, article
-          time= article.date.strftime('%b %e')
+        = partial "shared/post_index", locals: { article: article }
 - else
   section
     .section-title Articles

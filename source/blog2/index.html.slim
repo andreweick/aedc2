@@ -7,10 +7,7 @@ blog: 'blog2'
 h1.title= current_page.data.blog
 
 - page_articles.each_with_index do |article, i|
-  article
-    h2= link_to article.title, article
-    time= article.date.strftime('%b %e')
-    = article.body
+  = partial "shared/post_index", locals: { article: article }
 
 - if paginate
   - if next_page

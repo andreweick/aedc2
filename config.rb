@@ -30,9 +30,9 @@ helpers PostHelpers
 
 
 # Multiple Blogs
-page "blog/*", :layout => :blog
 activate :blog do |blog|
   blog.name              = "Eick Family"
+  blog.layout            = "post"
   blog.prefix            = "blog"
   blog.permalink         = ":year-:month-:day-:title.html"
   blog.tag_template      = "tag.html"
@@ -43,16 +43,16 @@ activate :blog do |blog|
   # blog.page_link         = "page/:num"
 end
 
-page "blog2/*", :layout => :blog
 activate :blog do |blog|
   blog.name              = "Blog 2"
+  blog.layout            = "post"
   blog.prefix            = "blog2"
   blog.tag_template      = "tag.html"
 end
 
-page "blog3/*", :layout => :blog
 activate :blog do |blog|
   blog.name              = "Blog 3"
+  blog.layout            = "post"
   blog.prefix            = "blog3"
   blog.tag_template      = "tag.html"
 end
