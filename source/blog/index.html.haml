@@ -2,15 +2,15 @@
 blog: 'Eick Family'
 ---
 
-h1.title= current_page.data.blog
+%h1.title= current_page.data.blog
 
 - if page_articles.any?
   - page_articles.group_by {|a| a.date.year }.each do |year, articles|
-    section
+    %section
       .section-title= year
       - articles.each_with_index do |article, i|
         = partial "shared/post_index", locals: { article: article }
 - else
-  section
+  %section
     .section-title Articles
-    p Sorry, no articles yet
+    %p Sorry, no articles yet

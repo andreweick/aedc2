@@ -1,8 +1,8 @@
-doctype html
-html
+!!! 5
+%html
   = partial "shared/head"
 
-  body class=page_classes
+  %body{class: page_classes}
     = partial "shared/header"
 
     .content= yield
