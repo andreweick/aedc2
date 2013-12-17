@@ -8,7 +8,6 @@ three. three. three. three. three. three. three. three. three. three. three.
 
 three. three. three. three. three. three. three. three. three. three. three.
 
-
 three. three. three. three. three. three. three. three. three. three. three.
 
 three. three. three. three. three. three. three. three. three. three. three.
