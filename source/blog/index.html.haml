@@ -7,9 +7,9 @@ pageable: true
 
 %section
   - if page_articles.any?
-    %ul.blog-list
+    %ul.list-simple
       - page_articles.each_with_index do |article, i|
-        %li= partial "shared/post_index", locals: { article: article }
+        %li= partial "shared/post_index", locals: { article: article, body: true }
   - else
     %p Sorry, no articles yet
 

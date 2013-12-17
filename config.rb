@@ -49,6 +49,7 @@ activate :blog do |blog|
   blog.layout            = "post"
   blog.paginate          = true
   blog.per_page          = 5
+  blog.permalink         = ":year-:month-:day-:title.html"
   blog.prefix            = "blog2"
   #blog.tag_template      = "tag.html"
 end
@@ -58,6 +59,7 @@ activate :blog do |blog|
   blog.layout            = "post"
   blog.paginate          = true
   blog.per_page          = 5
+  blog.permalink         = ":year-:month-:day-:title.html"
   blog.prefix            = "blog3"
   #blog.tag_template      = "tag.html"
 end
