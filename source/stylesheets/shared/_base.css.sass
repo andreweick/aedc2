@@ -68,7 +68,7 @@ ul
     @extend .list-simple
     margin: 0
     li
-      float: left
+      display: inline-block
       padding: 0
 
 section, aside
@@ -181,8 +181,8 @@ a
   color: $blue
   text-decoration: none
   outline: none
-  +transition(color, 100ms)
   &:hover
+    +transition(color, 100ms)
     color: lighten($blue, 10%)
     text-decoration: none
 
@@ -233,3 +233,29 @@ textarea
   +transition(background-color 200ms ease-out)
   &:hover
     background: lighten($blue, 10%)
+
+
+
+// Pagination
+ul.pagination
+  @extend .list-inline
+  margin-bottom: 3em
+  text-align: center
+  font-size: .8em
+  li
+    border: 1px solid $border-gray
+    border-bottom-color: darken($border-gray, 10%)
+    border-right: none
+    background: white
+    span, a
+      display: block
+      padding: 0.5em 1em
+    span
+      color: $border-gray
+    a
+      color: $gray
+    &:first-child
+      border-radius: $radius 0 0 $radius
+    &:last-child
+      border-right: 1px solid $border-gray
+      border-radius: 0 $radius $radius 0

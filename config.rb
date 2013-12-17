@@ -33,26 +33,31 @@ helpers PostHelpers
 activate :blog do |blog|
   blog.name              = "Eick Family"
   blog.layout            = "post"
+  # blog.page_link         = "page/:num"
+  blog.paginate          = true
+  blog.per_page          = 5
   blog.prefix            = "blog"
   blog.permalink         = ":year-:month-:day-:title.html"
-  blog.tag_template      = "tag.html"
-  blog.taglink           = "tags/:tag.html"
   # blog.summary_separator = /(READMORE)/
   # blog.summary_length    = 250
-  # blog.per_page          = 5
-  # blog.page_link         = "page/:num"
+  #blog.tag_template      = "tag.html"
+  blog.taglink           = "tags/:tag.html"
 end
 
 activate :blog do |blog|
   blog.name              = "Blog 2"
   blog.layout            = "post"
+  blog.paginate          = true
+  blog.per_page          = 5
   blog.prefix            = "blog2"
-  blog.tag_template      = "tag.html"
+  #blog.tag_template      = "tag.html"
 end
 
 activate :blog do |blog|
   blog.name              = "Blog 3"
   blog.layout            = "post"
+  blog.paginate          = true
+  blog.per_page          = 5
   blog.prefix            = "blog3"
-  blog.tag_template      = "tag.html"
+  #blog.tag_template      = "tag.html"
 end

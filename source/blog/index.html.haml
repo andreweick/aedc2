@@ -1,17 +1,16 @@
 ---
 blog: 'Eick Family'
+pageable: true
 ---
 
 %h1.title= current_page.data.blog
 
-- if page_articles.any?
-  - page_articles.group_by {|a| a.date.year }.each do |year, articles|
-    %section
-      .section-title= year
-      %ul.blog-list
-        - articles.each_with_index do |article, i|
-          %li= partial "shared/post_index", locals: { article: article }
-- else
-  %section
-    .section-title Articles
+%section
+  - if page_articles.any?
+    %ul.blog-list
+      - page_articles.each_with_index do |article, i|
+        %li= partial "shared/post_index", locals: { article: article }
+  - else
     %p Sorry, no articles yet
+
+= partial "shared/pagination", locals: {num_pages: num_pages, page_number: page_number, next_page: next_page, prev_page: prev_page} if paginate
