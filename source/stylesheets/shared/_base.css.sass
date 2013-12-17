@@ -37,6 +37,8 @@ figure
   text-align: center
   h1, h2
     margin-bottom: 0
+    @media only screen and (max-width: $break-small)
+      font-size: 2em
 
 .pull-left
   float: left
@@ -231,6 +233,7 @@ textarea
   text-align: center
   color: white
   +transition(background-color 200ms ease-out)
+  -webkit-appearance: none
   &:hover
     background: lighten($blue, 10%)
 
