@@ -1,2 +1,27 @@
 .title
-  %h1 Portfolio
+  %h1 Kumon Awards
+
+%script{src: "/portfolio/jbcore/juicebox.js"}
+:javascript
+  new juicebox({
+  	containerId : 'juicebox-container',
+  	configUrl: '/portfolio/config.xml',
+  	galleryWidth: '100%',
+  	galleryHeight: '100%',
+  	backgroundColor: '#222222'
+  });
+#juicebox-container
+  %noscript
+    / Image gallery content for non-javascript devices
+    %h1 Kumon Awards
+    %p Gallery Description
+    %p
+      %img{alt: "Kumon Medals", src: "/portfolio/images/2013-05-20-kumon-medals-1.jpg", title: "five"}/
+    %p
+      %img{alt: "Kumon Medals", src: "/portfolio/images/2013-05-20-kumon-medals-2.jpg", title: "four"}/
+    %p
+      %img{alt: "Kumon Medals", src: "/portfolio/images/2013-05-20-kumon-medals-3.jpg", title: "three"}/
+    %p
+      %img{alt: "Kumon Medals", src: "/portfolio/images/2013-05-20-kumon-medals-4.jpg", title: "two"}/
+    %p
+      %img{alt: "Kumon Medals", src: "/portfolio/images/2013-05-20-kumon-medals-0.jpg", title: "one"}/
