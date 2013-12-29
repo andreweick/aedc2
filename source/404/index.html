@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="it-IT">
+<head>
+
+<title>404 Error Page</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!-- FAVICON -->
+<link rel="shortcut icon" href="/favicon.ico" />
+
+<!-- GENERAL STYLE -->
+<link type="text/css" rel="stylesheet" media="all" href="/404/style.css" />
+
+<!-- JQUERY LIBRARY -->
+<script type="text/javascript" src="/404/js/jquery.min.js"></script>
+
+<!-- FORM -->
+<script type="text/javascript" src="/404/js/jquery.form.placeholder.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function()
+{
+	// Television
+	television();
+
+	// Content
+	$('#content').css('margin-top', - (parseInt($('#content').height()) / 2));
+});
+
+$(window).bind('resize', function()
+{
+	// Television
+	television();
+});
+
+function television(){
+	$('#television .middle, #television .middle .sx, #television .middle .dx').height(parseInt($('#television').height()) - 574);
+	$('#television .top .cx, #television .bottom .cx').width(parseInt($('#television').width()) - 776);
+}
+</script>
+
+<!--[if lt IE 9]>
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<script type="text/javascript" src="/404/js/modernizr/modernizr-2.0.6.js"></script>
+<![endif]-->
+
+</head>
+
+<body>
+
+<!-- Backgorund television -->
+<div id="television">
+	<div class="top">
+		<div class="sx"></div>
+		<div class="cx"></div>
+		<div class="dx"></div>
+		<div class="clear"></div>
+	</div>
+	<div class="middle">
+		<div class="sx"></div>
+		<div class="dx"></div>
+		<div class="clear"></div>
+	</div>
+	<div class="bottom">
+		<div class="sx"></div>
+		<div class="cx"></div>
+		<div class="dx"></div>
+		<div class="clear"></div>
+	</div>
+</div>
+
+<!-- 404 Content -->
+<div id="content">
+
+	<!-- Title -->
+	<div class="block">
+		<h1>Error 404</h1>
+		<h2>I can't find what you were looking for...</h2>
+	</div>
+
+	<!-- Navigation -->
+	<div class="block">
+		<h3>Try to go to another page</h3>
+		<ul>
+			<li>&gt; <a class="color_green" href="/" title="Home">Home</a></li>
+			<li>&gt; <a class="color_blue" href="/about" title="About">About</a></li>
+			<li>&gt; <a class="color_fucsia" href="/portfolio" title="Portfolio">Portfolio</a></li>
+			<li>&gt; <a class="color_yellow" href="http://missionfocus.com" title="My Company">My Company</a></li>
+			<li>&gt; <a class="color_red" href="/contact" title="Contact">Contact</a></li>
+		</ul>
+		<div class="clear"></div>
+	</div>
+
+	<!-- Searchform -->
+	<form>
+		<label><input type="text" name="search" title="Search" value="" data-default="Try to search another signal..." /></label>
+	</form>
+
+</div>
+
+</body>
+</html>
