@@ -1,0 +1,8 @@
+---
+title: Photo
+date: 2013-12-29
+author: Andy Eick
+tags: iPhone
+published: true
+---
+![Image](2013-12-29-photo/photo.jpg)
