@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <juiceboxgallery 
-
 	showAudioButton="false"
 	showInfoButton="false"
 	showNavButtons="false"
@@ -14,7 +13,7 @@
 	enableDirectLinks="true"
 	useFullscreenExpand="true"
 	captionPosition="NONE"
-	galleryTitle="Kumon Awards"
+	galleryTitle="Porfolio"
 	enableLooping="true"
 	imageTransitionType="CROSS_FADE"
 	imagePreloading="NEXT"
@@ -29,41 +28,103 @@
 	showSmallThumbsOnLoad="false"
 	showThumbsOnLoad="false"
 	randomizeImages="true"
-
 >
-  <image imageURL="/portfolio/images/2013-05-20-kumon-medals-0.jpg"
-	thumbURL="/portfolio/thumbs/2013-05-20-kumon-medals-0.jpg"
-	linkURL="/portfolio/images/2013-05-20-kumon-medals-0.jpg"
+  <image imageURL="/portfolio/images/1.jpg"
+	thumbURL="/portfolio/thumbs/1.jpg"
+	linkURL="/portfolio/images/1.jpg"
 	linkTarget="_blank">
-    <title><![CDATA[2013-05-20 | Kumon medals (0)]]></title>
+    <title>Image</title>
     <caption><![CDATA[]]></caption>
   </image>
-  <image imageURL="/portfolio/images/2013-05-20-kumon-medals-2.jpg"
-	thumbURL="/portfolio/thumbs/2013-05-20-kumon-medals-2.jpg"
-	linkURL="/portfolio/images/2013-05-20-kumon-medals-2.jpg"
+  <image imageURL="/portfolio/images/2.jpg"
+	thumbURL="/portfolio/thumbs/2.jpg"
+	linkURL="/portfolio/images/2.jpg"
 	linkTarget="_blank">
-    <title><![CDATA[2013-05-20 | Kumon medals (2)]]></title>
+    <title>Image</title>
     <caption><![CDATA[]]></caption>
   </image>
-  <image imageURL="/portfolio/images/2013-05-20-kumon-medals-3.jpg"
-	thumbURL="/portfolio/thumbs/2013-05-20-kumon-medals-3.jpg"
-	linkURL="/portfolio/images/2013-05-20-kumon-medals-3.jpg"
+  <image imageURL="/portfolio/images/3.jpg"
+	thumbURL="/portfolio/thumbs/3.jpg"
+	linkURL="/portfolio/images/3.jpg"
 	linkTarget="_blank">
-    <title><![CDATA[2013-05-20 | Kumon medals (3)]]></title>
+    <title>Image</title>
     <caption><![CDATA[]]></caption>
   </image>
-  <image imageURL="/portfolio/images/2013-05-20-kumon-medals-4.jpg"
-	thumbURL="/portfolio/thumbs/2013-05-20-kumon-medals-4.jpg"
-	linkURL="/portfolio/images/2013-05-20-kumon-medals-4.jpg"
+  <image imageURL="/portfolio/images/4.jpg"
+	thumbURL="/portfolio/thumbs/4.jpg"
+	linkURL="/portfolio/images/4.jpg"
 	linkTarget="_blank">
-    <title><![CDATA[2013-05-20 | Kumon medals (4)]]></title>
+    <title>Image</title>
     <caption><![CDATA[]]></caption>
   </image>
-  <image imageURL="/portfolio/images/2013-05-20-kumon-medals-0.jpg"
-	thumbURL="/portfolio/thumbs/2013-05-20-kumon-medals-0.jpg"
-	linkURL="/portfolio/images/2013-05-20-kumon-medals-0.jpg"
+  <image imageURL="/portfolio/images/5.jpg"
+	thumbURL="/portfolio/thumbs/5.jpg"
+	linkURL="/portfolio/images/5.jpg"
 	linkTarget="_blank">
-    <title><![CDATA[2013-05-20 | Kumon medals (0)]]></title>
+    <title>Image</title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="/portfolio/images/6.jpg"
+	thumbURL="/portfolio/thumbs/6.jpg"
+	linkURL="/portfolio/images/6.jpg"
+	linkTarget="_blank">
+    <title>Image</title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="/portfolio/images/7.jpg"
+	thumbURL="/portfolio/thumbs/7.jpg"
+	linkURL="/portfolio/images/7.jpg"
+	linkTarget="_blank">
+    <title>Image</title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="/portfolio/images/8.jpg"
+	thumbURL="/portfolio/thumbs/8.jpg"
+	linkURL="/portfolio/images/8.jpg"
+	linkTarget="_blank">
+    <title>Image</title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="/portfolio/images/9.jpg"
+	thumbURL="/portfolio/thumbs/9.jpg"
+	linkURL="/portfolio/images/9.jpg"
+	linkTarget="_blank">
+    <title>Image</title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="/portfolio/images/10.jpg"
+	thumbURL="/portfolio/thumbs/10.jpg"
+	linkURL="/portfolio/images/10.jpg"
+	linkTarget="_blank">
+    <title>Image</title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="/portfolio/images/11.jpg"
+	thumbURL="/portfolio/thumbs/11.jpg"
+	linkURL="/portfolio/images/11.jpg"
+	linkTarget="_blank">
+    <title>Image</title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="/portfolio/images/12.jpg"
+	thumbURL="/portfolio/thumbs/12.jpg"
+	linkURL="/portfolio/images/12.jpg"
+	linkTarget="_blank">
+    <title>Image</title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="/portfolio/images/13.jpg"
+	thumbURL="/portfolio/thumbs/13.jpg"
+	linkURL="/portfolio/images/13.jpg"
+	linkTarget="_blank">
+    <title>Image</title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="/portfolio/images/14.jpg"
+	thumbURL="/portfolio/thumbs/14.jpg"
+	linkURL="/portfolio/images/14.jpg"
+	linkTarget="_blank">
+    <title>Image</title>
     <caption><![CDATA[]]></caption>
   </image>
 </juiceboxgallery>
