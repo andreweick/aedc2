@@ -1,8 +1,13 @@
 ---
-title: Example Post for Blog 3
+title: Example Post
 date: 2013-01-01
 author: Andy Eick
 tags: Tag
 ---
+three. three. three. three. three. three. three. three. three. three. three.
 
-Post post. Post post.. Post post. Post post. Post post. Post post. Post post. Post post. Post post. Post post. Post post. Post post. Post post. Post post
+three. three. three. three. three. three. three. three. three. three. three.
+
+three. three. three. three. three. three. three. three. three. three. three.
+
+three. three. three. three. three. three. three. three. three. three. three.
