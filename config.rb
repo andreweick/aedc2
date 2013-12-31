@@ -31,7 +31,7 @@ helpers PostHelpers
 
 # Multiple Blogs
 activate :blog do |blog|
-  blog.name              = "Eick Family"
+  blog.name              = "Family"
   blog.layout            = "post"
   # blog.page_link         = "page/:num"
   blog.paginate          = true
@@ -45,7 +45,7 @@ activate :blog do |blog|
 end
 
 activate :blog do |blog|
-  blog.name              = "Blog 2"
+  blog.name              = "Snapshot"
   blog.layout            = "post"
   blog.paginate          = true
   blog.per_page          = 5
@@ -55,7 +55,7 @@ activate :blog do |blog|
 end
 
 activate :blog do |blog|
-  blog.name              = "Blog 3"
+  blog.name              = "History"
   blog.layout            = "post"
   blog.paginate          = true
   blog.per_page          = 5
