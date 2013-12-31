@@ -36,7 +36,7 @@ activate :blog do |blog|
   # blog.page_link         = "page/:num"
   blog.paginate          = true
   blog.per_page          = 5
-  blog.prefix            = "blog"
+  blog.prefix            = "family"
   blog.permalink         = ":year-:month-:day-:title.html"
   # blog.summary_separator = /(READMORE)/
   # blog.summary_length    = 250
@@ -50,7 +50,7 @@ activate :blog do |blog|
   blog.paginate          = true
   blog.per_page          = 5
   blog.permalink         = ":year-:month-:day-:title.html"
-  blog.prefix            = "blog2"
+  blog.prefix            = "snapshot"
   #blog.tag_template      = "tag.html"
 end
 
@@ -60,6 +60,6 @@ activate :blog do |blog|
   blog.paginate          = true
   blog.per_page          = 5
   blog.permalink         = ":year-:month-:day-:title.html"
-  blog.prefix            = "blog3"
+  blog.prefix            = "history"
   #blog.tag_template      = "tag.html"
 end
