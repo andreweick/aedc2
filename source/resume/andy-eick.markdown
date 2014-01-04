@@ -18,13 +18,6 @@ Mission Focus provides cloud services to DOD
 
 Founder and CEO (2008 - Present)
 
-Ran company
-
-- GSA contract
-- Successful subcontractor
-- 10 employees
-- XX million dollars
-
 Institute for Modern Intelligence (Alexandria, VA)
 --------------------------------------------------
 
