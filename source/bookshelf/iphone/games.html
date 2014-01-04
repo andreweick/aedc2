@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta id="viewport" name="viewport" content="width=320; initial-scale=0.9; maximum-scale=0.9; user-scalable=no;" />
+
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <style type="text/css">
+        .coverimage {
+            width: auto !important;
+            height: auto !important;
+            max-width: 110px;
+            max-height: 110px;
+        }
+    </style>
+    <script type="text/javascript" src="prototype.js"></script>
+    <script type="text/javascript" src="animator.js"></script>
+    <script type="text/javascript" src="library.js"></script>
+</head>
+<body>
+    <div id="libraryheader" style="width: 100%; height: 88px; background: url(../images/shelfheader.jpg)">
+        <div id="librarybanner">Library</div>
+        
+        <div id="shelfnavigation">
+            <select class="shelf_selection" onchange="location.href = this.options[this.selectedIndex].value;"><option value="index.html">Books</option><option value="movies.html">Movies</option><option value="albums.html">Albums</option><option value="games.html" selected="selected">Games</option><option value="gadgets.html">Gadgets</option><option value="tools.html">Tools</option><option value="apparel.html">Apparel</option><option value="computers.html">Computers</option><option value="computersold.html">Computers (old)</option><option value="itunesmusic.html">iTunes Music</option><option value="photography.html">Photography</option></select>
+        </div>
+    </div>
+    
+    <table id="mediatable" border="0" cellspacing="0" cellpadding="0" style="width: 100%; background-image: url(../images/shelfpattern.png)">
+        <tr id="collection"><td><div class="medium"><div class="title">CARABINER, S-BINER PLASTIC</div><span class="creator"></span><span class="rating"></span><span class="asin">B00DOECF8E</span><span class="description">CARABINER, S-BINER PLASTIC - Here's a fun version of our unique, two-in-one S-Biner. Made of lightweight plastic and available in 15 bright colors, its double-gated design has the same functionality and same nearly endless variety of uses. Ultra-handy dual spring gates will hold, secure, and connect everything from house keys and cell phone holsters to technical camping gear. Attach valuables to the center bar for ultimate security, link gate ends to a second set of items and anchor, or connect many items together. Smaller-sized S-Biners are excellent for connecting two zipper sliders on backpacks, duffels, and suitcases. Identify at a glance while you organize—choose different colors to differentiate sets of keys, luggage, car fobs, ski passes, water bottles, and more.</span><div class="cover coverimage" onclick="showDetails(this, event)"><img class="coverimage" src="../covers/00DAECB9-C7E8-4EF8-A1A7-C53017BCC8EB-140.png" width="140" height="140" /></div></div></td>
+        </tr>
+    </table>
+    
+    <div id="details" onclick="hideDetails()">
+        <div id="detailscover"></div>
+        <div id="detailsheader">
+            <div id="detailstitle"></div>
+            <div id="detailscreator"></div>
+            <hr />
+        </div>
+
+        <div id="detailsbody">
+        </div>
+
+        <div id="detailsfooter">
+            <hr />
+            <a id="searchinsideanchor" href="#"><img id="searchinside" src="../images/searchinside.png" alt="Search Inside" /></a>
+        </div>
+    </div> <!-- end details -->
+</body>
+</html>
