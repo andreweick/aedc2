@@ -63,3 +63,13 @@ activate :blog do |blog|
   blog.prefix            = "history"
   #blog.tag_template      = "tag.html"
 end
+
+activate :blog do |blog|
+  blog.name              = "Soccer"
+  blog.layout            = "post"
+  blog.paginate          = true
+  blog.per_page          = 5
+  blog.permalink         = ":year-:month-:day-:title.html"
+  blog.prefix            = "soccer"
+  #blog.tag_template      = "tag.html"
+end
