@@ -39,15 +39,23 @@
           left: 0
     li
       display: inline-block
-      padding: 0.25em 0
+      padding: 0 .75em
       a
-        color: $light-gray
-        padding: 0 1em
+        display: block
+        padding: .5em 0
+        text-align: center
         font-size: .8em
+        color: $light-gray
         &:hover
           color: lighten($blue, 10%)
-        @media only screen and (max-width: $break-large)
-          padding: 0 .35em
+      @media only screen and (max-width: $break-medium)
+        padding: 0
+        a
+          padding: .25em .5em 0
+          font-size: 1em
+          width: 2em
+          &:before
+            padding: 0
           span
             display: none
       @media only screen and (min-width: $break-large)
