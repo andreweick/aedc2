@@ -9,4 +9,4 @@ categories:
 ---
 This is a report Jasmine did for school in May (2012) on George Eastman.
 
-{% myvideo http://media.eick.us/video/2012/05/2012-05-jasmine-report-eastman/2012-06-jasmine-george-eastman-report-960x540 960 540 http://media.eick.us/video/2012/05/2012-05-jasmine-report-eastman/2012-05-jasmine-report-eastman.jpg%}
+{% videojs http://media.eick.us/video/2012/05/2012-05-jasmine-report-eastman/2012-06-jasmine-george-eastman-report-960x540 960 540 http://media.eick.us/video/2012/05/2012-05-jasmine-report-eastman/2012-05-jasmine-report-eastman.jpg%}

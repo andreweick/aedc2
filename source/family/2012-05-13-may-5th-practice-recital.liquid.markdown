@@ -10,4 +10,4 @@ thumbsrc:  http://media.eick.us/video/2012/05/05-Practice-Recital/2012-05-05-Pra
 ---
 The girls had a practice recital two weekends ago getting ready for their recital...
 
-{% myvideo http://media.eick.us/video/2012/05/05-Practice-Recital/2012-05-05-Practice-Recital-960x540 960 540 http://media.eick.us/video/2012/05/05-Practice-Recital/2012-05-05-Practice-Recital.jpg %}
+{% videojs http://media.eick.us/video/2012/05/05-Practice-Recital/2012-05-05-Practice-Recital-960x540 960 540 http://media.eick.us/video/2012/05/05-Practice-Recital/2012-05-05-Practice-Recital.jpg %}

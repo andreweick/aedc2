@@ -25,4 +25,4 @@ status: publish
 ---
 Jasmine and Libby talk about Santa and Christmas.
 
-{% myvideo http://media.eick.us/video/2011/2011-12-23/2011-12-23-540p 960 540 http://media.eick.us.s3.amazonaws.com/video/2011/2011-12-23/2011-12-23-540.jpg %}
+{% videojs http://media.eick.us/video/2011/2011-12-23/2011-12-23-540p 960 540 http://media.eick.us.s3.amazonaws.com/video/2011/2011-12-23/2011-12-23-540.jpg %}
