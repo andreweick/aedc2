@@ -17,4 +17,4 @@ They used the iMac to compose the music, and the iPad to play it.  Now they have
 
 Libby wrote "The Bumpy Carriage Ride" and Jasmine wrote "The Dancing Puppy."
 
-{% videojs http://media.eick.us/video/2012/02/piano-compositions/2012-02-14-Compositions-540p 960 540 http://media.eick.us/video/2012/02/piano-compositions/2012-02-14-Compositions-poster-960x540.png %}
+{% video http://media.eick.us/video/2012/02/piano-compositions/2012-02-14-Compositions-540p 960 540 http://media.eick.us/video/2012/02/piano-compositions/2012-02-14-Compositions-poster-960x540.png %}

@@ -25,7 +25,8 @@ require "lib/liquid_vimeo"
 require "lib/liquid_photo"
 require "lib/liquid_photo2"
 require "lib/liquid_blockquote"
-require "lib/liquid_videojs"
+require "lib/liquid_video"
+require "lib/liquid_aedc_video"
 
 
 # Ruby helpers to do the same thing

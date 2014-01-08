@@ -9,5 +9,5 @@ categories:
 ---
 A piano recital that I never posted from May 6, 2012.
 
-{% videojs http://media.eick.us/video/2012/05/2012-05-06-Piano-Recital/2012-05-06-Piano-Recital-960x540 960 540  http://media.eick.us/video/2012/05/2012-05-06-Piano-Recital/2012-05-06-Piano-Recital.jpg%}
+{% video http://media.eick.us/video/2012/05/2012-05-06-Piano-Recital/2012-05-06-Piano-Recital-960x540 960 540  http://media.eick.us/video/2012/05/2012-05-06-Piano-Recital/2012-05-06-Piano-Recital.jpg%}
 

@@ -10,6 +10,6 @@ categories:
 ---
 Libby's ballet recital from June 2, 2012.
 
-{% videojs http://media.eick.us/video/2012/06/2012-06-02-Libby-Ballet-recital-960x540 960 540  http://media.eick.us/video/2012/06/2012-06-02-Libby-Ballet-recital.jpg%}
+{% video http://media.eick.us/video/2012/06/2012-06-02-Libby-Ballet-recital-960x540 960 540  http://media.eick.us/video/2012/06/2012-06-02-Libby-Ballet-recital.jpg%}
 
 

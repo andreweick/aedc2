@@ -13,6 +13,6 @@ status: publish
 ---
 Jasmine and Libby have a piano recital.
 
-{% videojs http://media.eick.us/video/2011/2011-12-04-Piano-Recital/2011-12-04-Piano-Recital-540p 960 540 http://media.eick.us/video/2011/2011-12-04-Piano-Recital/2011-12-04-Piano-Recital-540.jpg %}
+{% video http://media.eick.us/video/2011/2011-12-04-Piano-Recital/2011-12-04-Piano-Recital-540p 960 540 http://media.eick.us/video/2011/2011-12-04-Piano-Recital/2011-12-04-Piano-Recital-540.jpg %}
 
 Jasmine plays:_Chord Etude_ by J. Vogt_Hunt_ by C. GurlittLibby plays:_Inspector Beauregard_ by Alfred_Carefree Stroll_ by L. KohlerFor the duet they play:_The Lonely Goatherd_ (The Sound of Music) by R. Rodgers
