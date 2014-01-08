@@ -116,10 +116,24 @@ table
   font: 100%
 
 blockquote
-  border-left: 7px solid $light-gray
-  margin: 0em 0em 1.5em
-  padding: 0.5em 1.5em
-  font-size: 0.9em
+  margin: 2em 5%
+  font-weight: 300
+  font-size: 2em
+  line-height: 1.4em
+  text-align: center
+  p
+    margin-bottom: 1em
+    color: $light-gray
+    &:before
+      content: '“'
+    &:after
+      content: '”'
+  footer
+    font-size: 0.5em
+    line-height: 1.35em
+    font-style: italic
+    font-weight: bold
+    text-align: right
 
 hr
   height: 1px

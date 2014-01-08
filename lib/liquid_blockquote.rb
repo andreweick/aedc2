@@ -46,7 +46,7 @@ class Blockquote < Liquid::Block
 
   def render(context)
     quote = paragraphize(super)
-    author = "<strong>#{@by.strip}</strong>" if @by
+    author = "- #{@by.strip}" if @by
     if @source
       url = @source.match(/https?:\/\/(.+)/)[1].split('/')
       parts = []
