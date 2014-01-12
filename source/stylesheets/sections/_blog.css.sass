@@ -53,3 +53,32 @@ article
   &.pull-left
     float: left
     margin: 0 1em 0.5em 0
+
+.tags
+  @extend .list-simple
+  margin-top: 5em
+  li
+    float: left
+  a
+    position: relative
+    z-index: 1
+    margin-right: .5em
+    border-radius: .25em
+    padding: .25em .5em
+    font-size: .8em
+    line-height: 1.5em
+    color: $light-gray
+    background: darken($background, 5%)
+    &:hover
+      color: white
+      background: $blue
+
+.tags-index
+  @extend .list-simple
+  li
+    border-bottom: 1px solid #eee
+    &:last-child
+      border-bottom: none
+    .date
+      float: right
+      margin-left: 1em

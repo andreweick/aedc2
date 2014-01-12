@@ -38,15 +38,13 @@ helpers PostHelpers
 activate :blog do |blog|
   blog.name              = "Family"
   blog.layout            = "post"
-  # blog.page_link         = "page/:num"
   blog.paginate          = true
   blog.per_page          = 5
   blog.prefix            = "family"
   blog.permalink         = ":year-:month-:day-:title.html"
-  # blog.summary_separator = /(READMORE)/
-  # blog.summary_length    = 250
-  #blog.tag_template      = "tag.html"
-  blog.taglink           = "tags/:tag.html"
+  #blog.summary_separator = /(READMORE)/
+  #blog.summary_length    = 250
+  blog.tag_template      = "tag.html"
 end
 
 activate :blog do |blog|
@@ -56,7 +54,7 @@ activate :blog do |blog|
   blog.per_page          = 5
   blog.permalink         = ":year-:month-:day-:title.html"
   blog.prefix            = "snapshot"
-  #blog.tag_template      = "tag.html"
+  blog.tag_template      = "tag.html"
 end
 
 activate :blog do |blog|
@@ -66,7 +64,7 @@ activate :blog do |blog|
   blog.per_page          = 5
   blog.permalink         = ":year-:month-:day-:title.html"
   blog.prefix            = "history"
-  #blog.tag_template      = "tag.html"
+  blog.tag_template      = "tag.html"
 end
 
 activate :blog do |blog|
@@ -76,5 +74,5 @@ activate :blog do |blog|
   blog.per_page          = 5
   blog.permalink         = ":year-:month-:day-:title.html"
   blog.prefix            = "soccer"
-  #blog.tag_template      = "tag.html"
+  blog.tag_template      = "tag.html"
 end
