@@ -54,9 +54,24 @@ article
     float: left
     margin: 0 1em 0.5em 0
 
+.post-pagination
+  .prev, .next
+    @media only screen and (min-width: $break-small)
+      width: 45%
+    @media only screen and (min-width: $break-medium)
+      width: 33%
+  .pagination-direction
+    margin-bottom: 0.5em
+    color: $light-gray
+  p
+    margin-bottom: 0.25em
+    font-size: 1.5em
+    font-weight: 500
+
 .tags
   @extend .list-simple
-  margin-top: 5em
+  overflow: hidden
+  margin-top: 2em
   li
     float: left
   a
@@ -82,3 +97,6 @@ article
     .date
       float: right
       margin-left: 1em
+
+.calendar-index
+  @extend .tags-index

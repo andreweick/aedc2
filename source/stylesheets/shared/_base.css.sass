@@ -258,24 +258,35 @@ textarea
 
 // Pagination
 ul.pagination
-  @extend .list-inline
-  margin-bottom: 3em
-  text-align: center
-  font-size: .8em
+  @extend .list-simple
+  clear: both
+  margin: 4em 0
+  min-height: 2.75em
+  font-size: 0.75em
+  color: $gray
   li
+    margin: 1em 0
     border: 1px solid $border-gray
     border-bottom-color: darken($border-gray, 10%)
-    border-right: none
+    border-radius: 3px
+    padding: 0
     background: white
-    span, a
-      display: block
-      padding: 0.5em 1em
-    span
+    &.disabled a, &.disabled span
       color: $border-gray
+    @media only screen and (min-width: $break-small)
+      display: inline-block
+      &.prev
+        float: left
+      &.next
+        float: right
+        text-align: right
+    a, span
+      display: block
+      padding: 0.5em 0.75em
+      &:before, &:after
+        color: $border-gray
     a
-      color: $gray
-    &:first-child
-      border-radius: $radius 0 0 $radius
-    &:last-child
-      border-right: 1px solid $border-gray
-      border-radius: 0 $radius $radius 0
+      &:before, &:after
+        color: $blue
+        &:hover
+          color: lighten($blue, 10%)

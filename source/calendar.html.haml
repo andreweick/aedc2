@@ -1,0 +1,33 @@
+---
+blog: 'Family'
+---
+
+%h1.title
+  Archive for
+  - case page_type
+    - when 'day'
+      = Date.new(year, month, day).strftime('%b %e %Y')
+    - when 'month'
+      = Date.new(year, month, 1).strftime('%b %Y')
+    - when 'year'
+      = year
+
+- if paginate && num_pages > 1
+  %p Page #{page_number} of #{num_pages}
+  - if prev_page
+    %p= link_to 'Previous page', prev_page
+
+%ul.calendar-index
+  - page_articles.each_with_index do |article, i|
+    %li
+      %small.date= simple_date(article.date)
+      = link_to article.title, article
+
+// Set the prev/next links
+- if page_type == 'year'
+  - prev_page = blog_year_path(year - 1, current_page.data.blog) || nil
+  - next_page = blog_year_path(year + 1, current_page.data.blog) || nil
+
+%ul.pagination
+  %li.next= link_to (year + 1), next_page, class: 'ss-navigateright right' if next_page
+  %li.prev= link_to (year - 1), prev_page, class: 'ss-navigateleft' if prev_page

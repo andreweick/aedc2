@@ -7,7 +7,7 @@ set :js_dir, 'javascripts'
 set :images_dir, 'images'
 
 activate :directory_indexes
-
+activate :livereload
 activate :clowncar
 
 configure :build do
@@ -45,6 +45,7 @@ activate :blog do |blog|
   #blog.summary_separator = /(READMORE)/
   #blog.summary_length    = 250
   blog.tag_template      = "tag.html"
+  blog.year_template     = "calendar.html"
 end
 
 activate :blog do |blog|
@@ -55,6 +56,7 @@ activate :blog do |blog|
   blog.permalink         = ":year-:month-:day-:title.html"
   blog.prefix            = "snapshot"
   blog.tag_template      = "tag.html"
+  blog.year_template     = "calendar.html"
 end
 
 activate :blog do |blog|
@@ -65,6 +67,7 @@ activate :blog do |blog|
   blog.permalink         = ":year-:month-:day-:title.html"
   blog.prefix            = "history"
   blog.tag_template      = "tag.html"
+  blog.year_template     = "calendar.html"
 end
 
 activate :blog do |blog|
@@ -75,4 +78,5 @@ activate :blog do |blog|
   blog.permalink         = ":year-:month-:day-:title.html"
   blog.prefix            = "soccer"
   blog.tag_template      = "tag.html"
+  blog.year_template     = "calendar.html"
 end
