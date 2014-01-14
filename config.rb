@@ -27,6 +27,7 @@ require "lib/liquid_photo2"
 require "lib/liquid_blockquote"
 require "lib/liquid_video"
 require "lib/liquid_aedc_video"
+require "lib/liquid_footnote"
 
 
 # Ruby helpers to do the same thing

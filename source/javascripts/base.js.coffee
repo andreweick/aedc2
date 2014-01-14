@@ -9,3 +9,5 @@ $ ->
       img = $(this)
       png_src = img.attr("src").replace(".svg", ".png")
       img.attr("src", png_src)
+
+  $.bigfoot()
