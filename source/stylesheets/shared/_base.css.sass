@@ -9,6 +9,8 @@ body
   font-size: 1.25em
   line-height: 1.4em
   cursor: default
+  @media only screen and (max-width: $break-small)
+    font-size: 1em
   *
     font-family: $sans-serif
     box-sizing: border-box
@@ -117,7 +119,7 @@ table
   font: 100%
 
 blockquote
-  margin: 2em 5%
+  margin: 1em 5%
   font-weight: 300
   font-size: 2em
   line-height: 1.4em
@@ -176,13 +178,13 @@ h1
   font-weight: 500
   font-weight: bold
 h2
-  font-size: 1.5em
+  font-size: 1.75em
   line-height: 1.15em
 h3
-  font-size: 1.25em
+  font-size: 1.5em
   line-height: 1.15em
 h4
-  font-size: 1.1em
+  font-size: 1.25em
   line-height: 1.15em
 
 p
@@ -290,3 +292,35 @@ ul.pagination
         color: $blue
         &:hover
           color: lighten($blue, 10%)
+
+
+
+// About
+.about-left
+  .social-links
+    margin: 0
+    li
+      padding: 0.25em 0
+  @media only screen and (max-width: $break-small)
+    overflow: hidden
+    margin-bottom: 2em
+    img, .social-links
+      float: left
+      width: 50%
+    .social-links
+      width: 45%
+      margin-left: 5%
+  @media only screen and (min-width: $break-small)
+    float: left
+    margin-right: 1em
+
+  .icon-appnet:before
+    content: ""
+    display: inline-block
+    height: 20px
+    width: 20px
+    margin-right: 0.5em
+    background: image-url("appnet.svg")
+    vertical-align: middle
+    .no-svg &
+      background: image-url("appnet.png")
