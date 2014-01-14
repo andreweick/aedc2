@@ -54,10 +54,14 @@ article
     float: left
     margin: 0 1em 0.5em 0
 
-.post-pagination
+ul.pagination.post-pagination
   .prev, .next
+    float: none
     @media only screen and (min-width: $break-small)
       width: 45%
+      float: left
+      &.next
+        float: right
     @media only screen and (min-width: $break-medium)
       width: 33%
   .pagination-direction

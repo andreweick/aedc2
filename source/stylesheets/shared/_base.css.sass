@@ -269,15 +269,14 @@ ul.pagination
     border-radius: 3px
     padding: 0
     background: white
+    display: block
+    &.prev
+      float: left
+    &.next
+      float: right
+      text-align: right
     &.disabled a, &.disabled span
       color: $border-gray
-    @media only screen and (min-width: $break-small)
-      display: inline-block
-      &.prev
-        float: left
-      &.next
-        float: right
-        text-align: right
     a, span
       display: block
       padding: 0.5em 0.75em
