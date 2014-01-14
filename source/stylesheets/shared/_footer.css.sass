@@ -1,18 +1,36 @@
 .site-footer
-  @extend .content
-  @extend small
-  padding-top: 0
   border-top: 1px solid $border-gray
+  background: #211a16 image-url("wood.png") top center repeat
+  padding-bottom: 2em
+
+  nav, .copyright
+    padding: 2em 1% 0
+    @media only screen and (min-width: $break-small)
+      float: left
+      width: 24%
+
   nav
+    .section-title
+      margin-bottom: 0
+      border-bottom-color: rgba(white, 0.1)
+      padding-top: 0
+
     ul
+      @extend .list-simple
       margin: 0
+
     li
-      display: inline-block
-      padding: 0 1em 0 0
+      padding: 0
+
       a
+        @extend small
         color: $light-gray
         &:hover
           text-decoration: none
           color: lighten($blue, 10%)
-        &:before
-          display: none
+
+  .copyright
+    @extend small
+    padding-bottom: 2em
+    @media only screen and (min-width: $break-medium)
+      text-align: right

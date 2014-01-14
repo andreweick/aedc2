@@ -1,5 +1,24 @@
 %footer.site-footer
-  %nav
-    .pull-right &copy; #{Time.now.year}
-    = partial "shared/nav_list"
-
+  .container
+    %nav
+      %h3.section-title Andy Eick
+      %ul
+        %li= link_to "Home", "/"
+        %li= link_to "About", "/about"
+        %li= link_to "Contact", "/contact"
+        %li= link_to "My Company", "http://missionfocus.com"
+        %li= link_to "My Institute", "http://imintel.org"
+    %nav
+      %h3.section-title Blogs
+      %ul
+        %li= link_to "Family", "/family"
+        %li= link_to "Snapshot", "/snapshot"
+        %li= link_to "History", "/history"
+    %nav
+      %h3.section-title Pages
+      %ul
+        %li= link_to "Portfolio", "/portfolio"
+        %li= link_to "Bookshelf", "/bookshelf/index.html"
+        %li= link_to "Jasmine's Soccer", "http://soccer-peeps.com"
+    .copyright
+      %p &copy; 1999-#{Time.now.year}
