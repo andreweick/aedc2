@@ -7,10 +7,14 @@
 
 
     - if current_page.data.tags
+      - tags = current_page.data.tags
       %ul.tags
         %li= link_to current_page.date.year, blog_year_path(current_page.date.year)
-        - current_page.data.tags.each do |tag|
-          %li= link_to tag, "tags/#{tag}.html"
+        - if tags.respond_to?('each')
+          - tags.to_a.each do |tag|
+            %li= link_to tag, "tags/#{tag}.html"
+        - else
+          %li= link_to tags, "tags/#{tags}.html"
 
 
   - prev_article = current_article.previous_article

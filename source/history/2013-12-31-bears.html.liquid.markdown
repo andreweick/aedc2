@@ -4,6 +4,12 @@ date: 2013-12-31 18:29 UTC
 tags: history
 ---
 
-Bears in yellowstone -- circa 1960's
+Bears in yellowstone{% footnote_link 1 %}
 
 {% vimeo 82954308 %}
+
+{% footnotes %}
+  {% footnote 1 %}
+  circa 1960's
+  {% endfootnote %}
+{% endfootnotes %}

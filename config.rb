@@ -8,7 +8,6 @@ set :images_dir, 'images'
 
 activate :directory_indexes
 activate :livereload
-activate :clowncar
 
 configure :build do
   # activate :minify_css
