@@ -1,7 +1,5 @@
 Time.zone = "UTC"
 
-page "/feed.xml", :layout => false
-
 set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
@@ -47,6 +45,8 @@ activate :blog do |blog|
   blog.tag_template      = "tag.html"
   blog.year_template     = "calendar.html"
 end
+page "/feed_family.xml", :layout => false
+
 
 activate :blog do |blog|
   blog.name              = "Snapshot"
@@ -58,6 +58,8 @@ activate :blog do |blog|
   blog.tag_template      = "tag.html"
   blog.year_template     = "calendar.html"
 end
+page "/feed_snapshot.xml", :layout => false
+
 
 activate :blog do |blog|
   blog.name              = "History"
@@ -69,6 +71,8 @@ activate :blog do |blog|
   blog.tag_template      = "tag.html"
   blog.year_template     = "calendar.html"
 end
+page "/feed_history.xml", :layout => false
+
 
 activate :blog do |blog|
   blog.name              = "Soccer"
@@ -80,3 +84,4 @@ activate :blog do |blog|
   blog.tag_template      = "tag.html"
   blog.year_template     = "calendar.html"
 end
+page "/feed_soccer.xml", :layout => false
