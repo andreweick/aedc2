@@ -1,6 +1,0 @@
-AuthUserFile /srv/www/eick.us/public_html/family-tree/.htpasswd
-AuthName EnterPassword
-AuthGroupFile /dev/null
-AuthType Basic
-
-require valid-user
