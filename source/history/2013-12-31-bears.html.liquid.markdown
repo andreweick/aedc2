@@ -2,6 +2,7 @@
 title: Bears
 date: 2013-12-31 18:29 UTC
 tags: history
+share: true
 ---
 
 Bears in yellowstone{% footnote_link 1 %}

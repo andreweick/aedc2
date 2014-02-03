@@ -1,5 +1,5 @@
 - wrap_layout :layout do
-  %article
+  %article.post
     .title
       %time= simple_date(current_page.date)
       %h1= current_page.data.title
@@ -16,6 +16,15 @@
         - else
           %li= link_to tags, "tags/#{tags}.html"
 
+    - if current_page.data.share == true
+      .share
+      :coffeescript
+        $ ->
+          $(".share").share
+            url: "#{current_page.url}"
+            text: "#{current_page.data.title} (#{current_page.url})"
+            color: "#999"
+            background: "#efefef"
 
   - prev_article = current_article.previous_article
   - next_article = current_article.next_article
