@@ -7,6 +7,7 @@
   %title= current_page.data.title || "Andrew Eick"
 
   = stylesheet_link_tag "application", media: "all"
+  = javascript_include_tag "application", "data-turbolinks-track" => true
 
   %link{href: "/images/favicon.ico", rel: "icon"}
   %link{rel: "apple-touch-icon-precomposed", href: image_path("apple-touch-icon-57.png")}
