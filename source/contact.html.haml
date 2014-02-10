@@ -6,11 +6,11 @@
 
   .control-group
     %label{for: "email"} Email:
-    %input{name: "email", id: "email", type: "text"}
+    %input#email{type: "email", name: "email"}
   .control-group
     %label{for: "subject"} Subject:
-    %input{name: "subject", id: "subject", type: "text"}
+    %input#subject.input-text{type: "text", name: "subject"}
   .control-group
     %label{for: "message"} Message:
-    %textarea{name: "message", id: "message", rows: "15", cols: "40"}
-  %input{type: "submit", class: "button"}
+    %textarea#message{name: "message", rows: "15", cols: "40"}
+  %input.button{type: "submit"}
