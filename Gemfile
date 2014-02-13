@@ -12,4 +12,4 @@ gem 'middleman-gh-pages',   '~> 0.0.3'
 gem 'middleman-minify-html','~> 3.1.1'
 gem 'liquid',               '~> 2.5.4'
 gem 'therubyracer',         '~> 0.12.0'           # Speeds up JS Compression
-
+gem 'middleman-deploy',			'~> 0.1.4'
