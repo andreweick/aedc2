@@ -21,8 +21,10 @@
       :coffeescript
         $ ->
           $(".share").share
-            url: "#{current_page.url}"
-            text: "#{current_page.data.title} (#{current_page.url})"
+            url: document.URL
+            text: "#{current_page.data.title} (" + document.URL + ")"
+            subject: "#{current_page.data.title}"
+            body: "#{current_page.data.title}%0D%0A#{current_page.data.body}%0D%0A%0D%0AView the post by Andrew Eick:%0D%0A" + document.URL
             color: "#999"
             background: "#efefef"
 
