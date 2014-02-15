@@ -87,4 +87,14 @@ activate :blog do |blog|
   blog.tag_template      = "tag.html"
   blog.year_template     = "calendar.html"
 end
+
+activate :deploy do |deploy|
+  deploy.build_before    = true
+  deploy.method          = :rsync
+  deploy.host            = "www.bleewire.com"
+  deploy.path            = "/srv/www/eick.us/public_html/"
+  deploy.user            = "maeick"
+  deploy.clean           = true
+end
+
 page "/feed_soccer.xml", :layout => false
