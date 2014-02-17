@@ -1,4 +1,4 @@
-class FullImage < Liquid::Tag
+class WideImage < Liquid::Tag
 
   def initialize(tag_name, args, tokens)
     super
@@ -7,8 +7,8 @@ class FullImage < Liquid::Tag
   end
 
   def render(context)
-    "<figure class='full-width'><img src=#{@url} title='#{@text}'/></figure>"
+    "<figure class='wide'><img src=#{@url} title='#{@text}'/></figure>"
   end
 end
 
-Liquid::Template.register_tag('full_image', FullImage)
+Liquid::Template.register_tag('wide_image', WideImage)

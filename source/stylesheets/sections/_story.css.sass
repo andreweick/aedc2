@@ -7,4 +7,15 @@
     padding-right: 0
 
     p, .tags
-      @extend .container
+      display: block
+      clear: both
+      max-width: 50rem
+      margin: 1em auto
+
+    blockquote p
+      max-width: none
+
+.wide
+  &, & img
+    max-width: none
+    width: 100%
