@@ -1,8 +1,9 @@
 - wrap_layout :layout do
   %article.post
-    .title
-      %time= simple_date(current_page.date)
-      %h1= current_page.data.title
+    %div{class: ("cover" if current_page.data.cover), style: ("background-image: url(#{current_page.data.cover})" if current_page.data.cover)}
+      .title
+        %time= simple_date(current_page.date)
+        %h1= current_page.data.title
     = yield
 
 

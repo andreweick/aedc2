@@ -12,10 +12,42 @@
       max-width: 50rem
       margin: 1em auto
 
+    p
+      font-size: 1.8em
+      line-height: 1.4em
+
     blockquote p
+      font-size: 1em
       max-width: none
 
 .wide
   &, & img
     max-width: none
     width: 100%
+
+.has-cover
+  .content
+    padding-top: 0
+
+.cover
+  @extend .wide
+  position: relative
+  z-index: 1
+  background-color: #222
+  background-size: cover
+  +box(vertical, center)
+  .title
+    margin: 0 auto
+    padding: 20px
+    color: #fff
+    text-shadow: 0 2px 8px rgba(black, 0.25)
+  &.inverse
+    background: #fff
+    .title
+      color: #000
+  .no-flexbox &
+    padding-top: 20%
+  .flexboxlegacy &
+    padding-top: 0
+  *:last-child
+    margin-bottom: 0
