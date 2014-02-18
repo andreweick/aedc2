@@ -2,7 +2,7 @@
 %html
   = partial "shared/head"
 
-  %body{class: page_classes}
+  %body{class: "#{page_classes}#{' layout-' + current_page.data.layout if current_page.data.layout != nil}#{' has-cover' if current_page.data.cover}"}
     = partial "shared/header"
 
     .content= yield

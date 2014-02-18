@@ -24,6 +24,7 @@ end
 require "lib/liquid_vimeo"
 require "lib/liquid_photo"
 require "lib/liquid_photo2"
+require "lib/liquid_wide_image"
 require "lib/liquid_blockquote"
 require "lib/liquid_video"
 require "lib/liquid_aedc_video"
@@ -98,3 +99,16 @@ activate :deploy do |deploy|
 end
 
 page "/feed_soccer.xml", :layout => false
+
+
+activate :blog do |blog|
+  blog.name              = "Portfolio"
+  blog.layout            = "post"
+  blog.paginate          = true
+  blog.per_page          = 5
+  blog.permalink         = ":year-:month-:day-:title.html"
+  blog.prefix            = "portfolio"
+  blog.tag_template      = "tag.html"
+  blog.year_template     = "calendar.html"
+end
+page "/feed_portfolio.xml", :layout => false

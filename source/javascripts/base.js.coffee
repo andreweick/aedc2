@@ -11,3 +11,13 @@ $ ->
       img = $(this)
       png_src = img.attr("src").replace(".svg", ".png")
       img.attr("src", png_src)
+
+  if $(".cover").length > 0
+    headerHeight = $(".site-header").height()
+    coverFill = ->
+      viewportHeight = $(window).height()
+      $('.cover').each ->
+        $(this).height(viewportHeight - headerHeight)
+
+    coverFill()
+    $(window).resize -> coverFill()
