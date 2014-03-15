@@ -28,7 +28,7 @@ class Photo3 < Liquid::Tag
         "<img src='http://media.eick.us/images/generated/#{@year}/#{@directory}/#{@base}640x640.#{@ext}' alt='#{@text}'>"\
       "</noscript>"\
     "</div>"\
-    "<span id='photo-caption'>#{@text} </span><span id='photo-copyright'>#{@year}</span>"
+    "<span id='photo-caption'>#{@text} </span><span id='photo-copyright' style='display:none'>&copy;#{@year} M. Andrew Eick</span>"
   end
 
 end
