@@ -35,7 +35,6 @@ require "lib/liquid_footnote"
 require "lib/post_helpers"
 helpers PostHelpers
 
-
 # Multiple Blogs
 activate :blog do |blog|
   blog.name              = "Family"
@@ -50,7 +49,6 @@ activate :blog do |blog|
   blog.year_template     = "calendar.html"
 end
 page "/feed_family.xml", :layout => false
-
 
 activate :blog do |blog|
   blog.name              = "Snapshot"
