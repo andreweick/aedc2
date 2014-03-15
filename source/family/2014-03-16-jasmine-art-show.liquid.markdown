@@ -1,12 +1,12 @@
 ---
 layout: post
 title: Jasmine Art Show
-date: 2014-03-18
+date: 2014-03-16
 comments: false
 tags:
 - jasmine
 - art-show
-published: false
+published: true
 share: true
 ---
 Jasmine had a collage in the McLean art show.
