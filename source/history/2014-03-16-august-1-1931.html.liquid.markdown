@@ -6,7 +6,7 @@ share: true
 ---
 Glen, Helen and Jean H.{% footnote_link 1 %}, Marilynn Jane S.{% footnote_link 2%}, and Harry Arthur, August 1st, 1931
 
-{% photo3 http://media.eick.us/images/original/1931/1931-06-25/front_1-a-1931-06-25-at-18-14-39.jpg "The gang"%}
+{% photo3 /original/1931/1931-06-25/front_1-a-1931-06-25-at-18-14-39.jpg "The gang"%}
 
 {% footnotes %}
   {% footnote 1 %}
