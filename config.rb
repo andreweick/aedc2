@@ -86,6 +86,7 @@ activate :blog do |blog|
   blog.tag_template      = "tag.html"
   blog.year_template     = "calendar.html"
 end
+page "/feed_soccer.xml", :layout => false
 
 activate :deploy do |deploy|
   deploy.build_before    = true
@@ -96,4 +97,3 @@ activate :deploy do |deploy|
   deploy.clean           = true
 end
 
-page "/feed_soccer.xml", :layout => false
