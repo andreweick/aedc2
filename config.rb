@@ -5,7 +5,6 @@ set :js_dir, 'javascripts'
 set :images_dir, 'images'
 
 activate :automatic_image_sizes
-activate :directory_indexes
 activate :minify_html
 activate :minify_css
 activate :minify_javascript, compressor: Closure::Compiler.new
@@ -87,6 +86,9 @@ activate :blog do |blog|
   blog.year_template     = "calendar.html"
 end
 page "/feed_soccer.xml", :layout => false
+
+
+activate :directory_indexes   # Need to activate *after* I acivate the blogs
 
 activate :deploy do |deploy|
   deploy.build_before    = true
