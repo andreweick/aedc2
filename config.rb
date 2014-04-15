@@ -4,13 +4,13 @@ set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
 
-activate :automatic_image_sizes
-activate :minify_html
-activate :minify_css
-activate :minify_javascript, compressor: Closure::Compiler.new
-activate :gzip
 
 configure :build do
+  activate :automatic_image_sizes
+  activate :minify_html
+  activate :minify_css
+  activate :minify_javascript, compressor: Closure::Compiler.new
+  activate :gzip
   activate :asset_hash
   activate :cache_buster
   #activate :automatic_image_sizes
