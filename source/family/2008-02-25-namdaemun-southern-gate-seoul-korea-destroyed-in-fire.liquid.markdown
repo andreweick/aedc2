@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "Namdaemun (\xEC\x88\xAD\xEB\xA1\x80\xEB\xAC\xB8), Southern Gate, Seoul Korea, Destroyed in Fire"
+title: "Namdaemun, Southern Gate, Seoul Korea, Destroyed in Fire"
 date: 2008-02-25
 published: true
 meta: {}
