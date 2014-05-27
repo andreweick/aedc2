@@ -1,5 +1,6 @@
 RewriteEngine on
 Redirect 301 /files http://media.eick.us
+Redirect 302 /photo-archive http://eick-home.us.quickconnect.to/photo
 RewriteCond "%{HTTP_HOST}_%{HTTP_REFERER}" "!\.?([^\.]+\.[^\.]+?)_https?://.*\1/.*$"
 RewriteRule fonts/ss-.*$ - [F,NC,L]
 
