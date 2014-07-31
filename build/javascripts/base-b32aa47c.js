@@ -1,0 +1,1 @@
+(function(){$.bigfoot();$(function(){if(document.createElementNS&&document.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect)return document.documentElement.className+=" svg";document.documentElement.className+=" no-svg";return $("img.svg").each(function(){var a,b;a=$(this);b=a.attr("src").replace(".svg",".png");return a.attr("src",b)})})}).call(this);

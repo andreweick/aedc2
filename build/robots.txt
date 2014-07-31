@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /javascripts/
+Disallow: /stylesheets/
+Disallow: /fonts/
+Disallow: /family-tree/
+Disallow: /404/
+Disallow: /bookshelf/
+Disallow: /contact/
+Disallow: /resume/
