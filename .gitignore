@@ -3,6 +3,7 @@
 *.rbc
 .bundle
 .config
+_site
 coverage
 InstalledFiles
 lib/bundler/man
