@@ -1,21 +1,7 @@
-.DS_Store
-*.gem
-*.rbc
-.bundle
-.config
 _site
-coverage
-InstalledFiles
-lib/bundler/man
-pkg
-rdoc
-spec/reports
-test/tmp
-test/version_tmp
-tmp
-build
-
-# YARD artifacts
-.yardoc
-_yardoc
-doc/
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+codekit-config.json
+node_modules
+Gemfile.lock
