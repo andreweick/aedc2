@@ -1,6 +1,0 @@
-- body ||= false
-%article
-  .title
-    %time= article.date.strftime('%B ') + article.date.strftime('%e').to_i.ordinalize + ', ' + article.date.strftime('%Y')
-    %h2= link_to article.title, article
-  = article.body if body == true
