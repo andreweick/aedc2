@@ -48,25 +48,37 @@ module Jekyll
 
         postYear = context["page"]["date"].year
 
+          # <picture>
+          #   <source srcset="examples/images/extralarge.jpg" media="(min-width: 1000px)">
+          #   <source srcset="examples/images/large.jpg" media="(min-width: 800px)">
+          #   <img srcset="examples/images/medium.jpg" alt="A giant stone face at The Bayon temple in Angkor Thom, Cambodia">
+          # </picture>
+
+          # <div data-picture="" data-alt="#{@alt}, \u00A9 2013 Andrew Eick">
+          #   <div data-src="http://media.eick.us/images/generated/<%= year %>/320/<%= directory %>/<%= filename %>"></div>
+          #   <div data-src="http://media.eick.us/images/generated/<%= year %>/480/<%= directory %>/<%= filename %>" data-media="(min-width: 320px)"></div>
+          #   <div data-src="http://media.eick.us/images/generated/<%= year %>/768/<%= directory %>/<%= filename %>" data-media="(min-width: 480px)"></div>
+          #   <div data-src="http://media.eick.us/images/generated/<%= year %>/900/<%= directory %>/<%= filename %>" data-media="(min-width: 768px)"></div>
+          #   <div data-src="http://media.eick.us/images/generated/<%= year %>/640/<%= directory %>/<%= filename %>" data-media="(-webkit-min-device-pixel-ratio: 1.5),(-moz-min-device-pixel-ratio: 1.5),(-o-min-device-pixel-ratio: 3/2)"></div>
+          #   <div data-src="http://media.eick.us/images/generated/<%= year %>/960/<%= directory %>/<%= filename %>" data-media="(min-width: 320px) and (-webkit-min-device-pixel-ratio: 1.5),(min-width: 320px) and (-moz-min-device-pixel-ratio: 1.5),(min-width: 320px) and (-o-min-device-pixel-ratio: 3/2)"></div>
+          #   <div data-src="http://media.eick.us/images/generated/<%= year %>/1536/<%= directory %>/<%= filename %>" data-media="(min-width: 480px) and (-webkit-min-device-pixel-ratio: 1.5),(min-width: 480px) and (-moz-min-device-pixel-ratio: 1.5),(min-width: 480px) and (-o-min-device-pixel-ratio: 3/2)"></div>
+          #   <div data-src="http://media.eick.us/images/generated/<%= year %>/1800/<%= directory %>/<%= filename %>" data-media="(min-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5),(min-width: 768px) and (-moz-min-device-pixel-ratio: 1.5),(min-width: 768px) and (-o-min-device-pixel-ratio: 3/2)"></div>
+          #   <noscript>
+          #     <img src="http://media.eick.us/images/generated/<%= year %>/640/<%= directory %>/<%= filename %>" alt="#{@alt}, \u00A9 2013 Andrew Eick">
+          #   </noscript>
+          # </div>
+          # <span id="photo-caption">#{@alt}</span><span id='photo-copyright'>\u00A9 #{postYear} M. Andrew Eick</span>
         picturefillDiv = ERB.new <<-PICTUREFILLTEMPLATE.gsub(/^ {10}/,'')
-          <div data-picture="" data-alt="#{@alt}, \u00A9 2013 Andrew Eick">
-            <div data-src="http://media.eick.us/images/generated/<%= year %>/320/<%= directory %>/<%= filename %>"></div>
-            <div data-src="http://media.eick.us/images/generated/<%= year %>/480/<%= directory %>/<%= filename %>" data-media="(min-width: 320px)"></div>
-            <div data-src="http://media.eick.us/images/generated/<%= year %>/768/<%= directory %>/<%= filename %>" data-media="(min-width: 480px)"></div>
-            <div data-src="http://media.eick.us/images/generated/<%= year %>/900/<%= directory %>/<%= filename %>" data-media="(min-width: 768px)"></div>
-            <div data-src="http://media.eick.us/images/generated/<%= year %>/640/<%= directory %>/<%= filename %>" data-media="(-webkit-min-device-pixel-ratio: 1.5),(-moz-min-device-pixel-ratio: 1.5),(-o-min-device-pixel-ratio: 3/2)"></div>
-            <div data-src="http://media.eick.us/images/generated/<%= year %>/960/<%= directory %>/<%= filename %>" data-media="(min-width: 320px) and (-webkit-min-device-pixel-ratio: 1.5),(min-width: 320px) and (-moz-min-device-pixel-ratio: 1.5),(min-width: 320px) and (-o-min-device-pixel-ratio: 3/2)"></div>
-            <div data-src="http://media.eick.us/images/generated/<%= year %>/1536/<%= directory %>/<%= filename %>" data-media="(min-width: 480px) and (-webkit-min-device-pixel-ratio: 1.5),(min-width: 480px) and (-moz-min-device-pixel-ratio: 1.5),(min-width: 480px) and (-o-min-device-pixel-ratio: 3/2)"></div>
-            <div data-src="http://media.eick.us/images/generated/<%= year %>/1800/<%= directory %>/<%= filename %>" data-media="(min-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5),(min-width: 768px) and (-moz-min-device-pixel-ratio: 1.5),(min-width: 768px) and (-o-min-device-pixel-ratio: 3/2)"></div>
-            <noscript>
-              <img src="http://media.eick.us/images/generated/<%= year %>/640/<%= directory %>/<%= filename %>" alt="#{@alt}, \u00A9 2013 Andrew Eick">
-            </noscript>
-          </div>
-          <span id="photo-caption">#{@alt}</span><span id='photo-copyright'>\u00A9 #{postYear} M. Andrew Eick</span>
+          <picture>
+            <source srcset="http://192.168.1.14/media/<%= year %>/<%= directory %>/2560/<%= filename %>" media="(min-width: 1000px)">
+            <source srcset="http://192.168.1.14/media/<%= year %>/<%= directory %>/1280/<%= filename %>" media="(min-width: 768px)">
+            <source srcset="http://192.168.1.14/media/<%= year %>/<%= directory %>/640/<%= filename %>" media="(min-width: 480)">
+            <img srcset="http://192.168.1.14/media/<%= year %>/<%= directory %>/320/<%= filename %>">
+          </picture>
           PICTUREFILLTEMPLATE
         return picturefillDiv.result(binding)
       else
-        "Error processing input, expected syntax: {% photo url/to/original/photo \"alternate text\" %}"
+        raise "Error processing input, expected syntax: {% photo url/to/original/photo \"alternate text\" %}"
       end
     end
 
