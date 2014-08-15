@@ -10,13 +10,13 @@ categories:
 ---
 Graffiti along the Thames (Southbank)
 
-{% photo http://media.eick.us/images/original/2012/2012-02-12/London-27.jpg "Graffiti along the Thames" %}
+{% photo /original/2012/2012-02-12/London-27.jpg "Graffiti along the Thames" %}
 
 
-{% photo http://media.eick.us/images/original/2012/2012-02-12/London-39.jpg "Graffiti along the Thames" %}
+{% photo /original/2012/2012-02-12/London-39.jpg "Graffiti along the Thames" %}
 
 
-{% photo http://media.eick.us/images/original/2012/2012-02-12/London-40.jpg "Graffiti along the Thames" %}
+{% photo /original/2012/2012-02-12/London-40.jpg "Graffiti along the Thames" %}
 
 
 I kept trying to looking for the right detail, but I couldn't find it.  I tried some wide shots, but then it was overpowering.  Probably should have gone in tighter. 

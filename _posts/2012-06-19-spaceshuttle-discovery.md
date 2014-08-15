@@ -12,5 +12,5 @@ Jasmine and Libby took David, Maria, and Grandma Soupy to see, as Jasmine descri
 ![Space Shuttle Discovery][1]
 
 
-[1]: http://media.eick.us/images/original/2012/2012-06-19-1/shuttle-discovery.JPG
+[1]: /original/2012/2012-06-19-1/shuttle-discovery.JPG
 

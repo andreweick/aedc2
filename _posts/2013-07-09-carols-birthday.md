@@ -10,7 +10,7 @@ categories:
 
 I was looking for pictures of her I hadn't [posted before][2] and couldn't find any.  I have her Disneyland ID here on my desk, so I'll use that -- fitting in that we just got back from Disney World ourselves.
 
-{% photo2 http://media.eick.us/images/original/2013/2013-07-09/carol-disney-id.jpg "Carol's Disney Badge" %}
+{% photo /original/2013/2013-07-09/carol-disney-id.jpg "Carol's Disney Badge" %}
 
 
 

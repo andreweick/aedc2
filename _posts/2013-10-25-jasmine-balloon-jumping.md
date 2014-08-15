@@ -11,4 +11,4 @@ slug: jasmine-balloon-jumping
 ---
 Jasmine balloon jumping.
 
-{% photo2 http://media.eick.us/images/original/2013/2013-07-28/jasmine-balloon-2013-07-28-at-13-58-25.jpg "Jasmine balloon jumping" %}
+{% photo /original/2013/2013-07-28/jasmine-balloon-2013-07-28-at-13-58-25.jpg "Jasmine balloon jumping" %}

@@ -13,4 +13,4 @@ Picture from August 18 2011.
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-03-31/2011-08-18at19.22.51.jpg "Libby and Jasmine" %}
+{% photo /original/2012/2012-03-31/2011-08-18at19.22.51.jpg "Libby and Jasmine" %}

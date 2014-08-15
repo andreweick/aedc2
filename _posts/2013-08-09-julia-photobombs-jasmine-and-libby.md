@@ -11,10 +11,10 @@ slug: julia-photobombs-jasmine-and-libby
 ---
 Julia photobombs Jasmine and Libby.
 
-{% photo2 http://media.eick.us/images/original/2013/2013-04-06/2013-04-iPhone-2013-04-06-at-19-00-17.jpg "May, 2013 -  iPhone pictures" %}
+{% photo /original/2013/2013-04-06/2013-04-iPhone-2013-04-06-at-19-00-17.jpg "May, 2013 -  iPhone pictures" %}
 
-{% photo2 http://media.eick.us/images/original/2013/2013-04-06/2013-04-iPhone-2013-04-06-at-19-00-18.jpg "May, 2013 -  iPhone pictures" %}
+{% photo /original/2013/2013-04-06/2013-04-iPhone-2013-04-06-at-19-00-18.jpg "May, 2013 -  iPhone pictures" %}
 
 Jasmine smiles for an iPhone picture.
 
-{% photo2 http://media.eick.us/images/original/2013/2013-04-03/Jasmine-smiling.jpg "May, 2013 -  iPhone pictures" %}
+{% photo /original/2013/2013-04-03/Jasmine-smiling.jpg "May, 2013 -  iPhone pictures" %}

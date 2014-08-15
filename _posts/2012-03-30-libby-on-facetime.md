@@ -10,5 +10,5 @@ Libby video chatting on facetime...
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-03-28/Random-iPhone-14.jpg "Libby on facetime" %}
+{% photo /original/2012/2012-03-28/Random-iPhone-14.jpg "Libby on facetime" %}
   

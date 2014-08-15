@@ -14,5 +14,5 @@ Clearly long division was not part of the requirement...
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-05-30/jasmine-math-license.JPG "Math License" %}
+{% photo /original/2012/2012-05-30/jasmine-math-license.JPG "Math License" %}
 

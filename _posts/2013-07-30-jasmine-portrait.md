@@ -11,4 +11,4 @@ slug: jasmine-portrait
 ---
 Jasmine stayed home from school sick one day in March, but she must have been feeling better to take a picture.
 
-{% photo2 http://media.eick.us/images/original/2013/2013-03-10/Sick-Jasmine-2013-03-10-at-16-00-25.jpg "Jasmine poses while sick" %}
+{% photo /original/2013/2013-03-10/Sick-Jasmine-2013-03-10-at-16-00-25.jpg "Jasmine poses while sick" %}

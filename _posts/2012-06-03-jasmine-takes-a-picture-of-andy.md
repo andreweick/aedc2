@@ -11,6 +11,6 @@ Jasmine takes a picture of Andy
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-06-03/05-19-jasmine-uniform22.jpg "Jasmine takes a picture of Andy" %}
+{% photo /original/2012/2012-06-03/05-19-jasmine-uniform22.jpg "Jasmine takes a picture of Andy" %}
 
 

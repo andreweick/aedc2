@@ -12,10 +12,10 @@ Freak storm in DC knocks out power for 100,000's including them.  Fortunately th
 
 Libby by the glow of the iPad.
 
-{% photo http://media.eick.us/images/original/2012/2012-07-03-1/2012-07-03at07.15.06.jpg "Libby by the glow of the iPad" %}
+{% photo /original/2012/2012-07-03-1/2012-07-03at07.15.06.jpg "Libby by the glow of the iPad" %}
 
 
 Jasmine by the glow of the iPad.
 
-{% photo http://media.eick.us/images/original/2012/2012-07-03-1/2012-07-03at07.14.55.jpg "Jasmine by the glow of the iPad" %}
+{% photo /original/2012/2012-07-03-1/2012-07-03at07.14.55.jpg "Jasmine by the glow of the iPad" %}
 

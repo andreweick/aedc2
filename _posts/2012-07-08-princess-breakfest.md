@@ -10,9 +10,9 @@ thumbsrc:
 ---
 Libby and Jasmine having the Princess Breakfast.
 
-{% photo http://media.eick.us/images/original/2012/2012-07-08-1/2012-07-03-cinderalla-castle.JPG "Libby and Jasmine with Cinderella" %}
+{% photo /original/2012/2012-07-08-1/2012-07-03-cinderalla-castle.JPG "Libby and Jasmine with Cinderella" %}
 
 
 Last year's picture.
 
-{% photo http://media.eick.us/images/original/2012/2012-07-08-1/2011-07-04-cinderalla-castle.jpg "Last year's breakfest" %}
+{% photo /original/2012/2012-07-08-1/2011-07-04-cinderalla-castle.jpg "Last year's breakfest" %}

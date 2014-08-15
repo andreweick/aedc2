@@ -12,5 +12,5 @@ Here is a picture dad took in 1965 of a snowy Sunday service.  Dad, where was th
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-05-11/sunday-service-ends-at-tiny-village-church.jpg "Snowy church in village" %}
+{% photo /original/2012/2012-05-11/sunday-service-ends-at-tiny-village-church.jpg "Snowy church in village" %}
 

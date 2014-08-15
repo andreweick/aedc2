@@ -12,5 +12,5 @@ First time we met the PM we asked him about the rest of the team and how we fit/
 
 The name stuck.
 
-{% photo http://media.eick.us/images/original/2012/2012-01-15/thing5logo5-2-.jpg "Thing 5 logo" %}
+{% photo /original/2012/2012-01-15/thing5logo5-2-.jpg "Thing 5 logo" %}
 

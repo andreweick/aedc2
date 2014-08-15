@@ -13,9 +13,9 @@ Jasmine was pretty tired, she had 4 soccer games Saturday, and then ran the race
 
 Libby really worked hard at her race.  She told me she was going to try to compose a song and write a play during her race.  And Denise said she wanted to stop and take a picture at every mile marker.  Libby finished in 51:31
  
-{% photo http://media.eick.us/images/original/2012/2012-11-22/Girls-on-the-run-2.JPG "Denise, Libby and her friend, Libby finished in 51:31" %}
+{% photo /original/2012/2012-11-22/Girls-on-the-run-2.JPG "Denise, Libby and her friend, Libby finished in 51:31" %}
 
 
-{% photo http://media.eick.us/images/original/2012/2012-11-22/Girls-on-the-run-1.JPG "Jasmine and Nicole, Jasmine finished in 28:50" %}
+{% photo /original/2012/2012-11-22/Girls-on-the-run-1.JPG "Jasmine and Nicole, Jasmine finished in 28:50" %}
 
 

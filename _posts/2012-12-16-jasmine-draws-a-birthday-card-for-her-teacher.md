@@ -9,5 +9,5 @@ categories:
 ---
 Jasmine draws a birthday card for her teacher.
 
-{% photo http://media.eick.us/images/original/2012/2012-12-16/2012_12_07-jasmine-birthday-card.jpg "Jasmine draws a birthday card for her teacher %" %}
+{% photo /original/2012/2012-12-16/2012_12_07-jasmine-birthday-card.jpg "Jasmine draws a birthday card for her teacher %" %}
 

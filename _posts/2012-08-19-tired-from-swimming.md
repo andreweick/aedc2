@@ -8,8 +8,8 @@ categories:
 ---
 Jasmine and Libby tired from a long day of swimming.
 
-{% photo http://media.eick.us/images/original/2012/2012-08-19/2012-08-18at20.24.46.jpg "Jasmine" %}
+{% photo /original/2012/2012-08-19/2012-08-18at20.24.46.jpg "Jasmine" %}
 
 
-{% photo http://media.eick.us/images/original/2012/2012-08-19/2012-08-18at20.25.01.jpg "Libby" %}
+{% photo /original/2012/2012-08-19/2012-08-18at20.25.01.jpg "Libby" %}
 

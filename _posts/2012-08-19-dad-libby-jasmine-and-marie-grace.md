@@ -11,5 +11,5 @@ categories:
 ---
 Dad, Libby, Jasmine, and Marie Grace getting Popcorn in Traverse City.
 
-{% photo http://media.eick.us/images/original/2012/2012-08-19/2012-08-05at12.45.11.jpg "Dad, Libby, Jasmine, and Marie Grace getting Popcorn in Traverse City" %}
+{% photo /original/2012/2012-08-19/2012-08-05at12.45.11.jpg "Dad, Libby, Jasmine, and Marie Grace getting Popcorn in Traverse City" %}
 

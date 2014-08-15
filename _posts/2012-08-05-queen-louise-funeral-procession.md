@@ -11,6 +11,6 @@ Crowds line svoanvanger for Queen Louises funeral procession.
 
 A picture dad took in 1965 when they lived in Stockholm....
 
-{% photo http://media.eick.us/images/original/2012/2012-08-05/Queen-Louises-funeral-procession.jpg "Queen Louises funeral procession" %}
+{% photo /original/2012/2012-08-05/Queen-Louises-funeral-procession.jpg "Queen Louises funeral procession" %}
 
 

@@ -10,4 +10,4 @@ slug: balloon-doggy-for-jasmine
 ---
 Balloon doggy for Jasmine.
 
-{% photo2 http://media.eick.us/images/original/2013/2013-09-21/balloon-animal-2013-09-21-at-12-58-05.jpg "Balloon Doggy for Jasmine" %}
+{% photo /original/2013/2013-09-21/balloon-animal-2013-09-21-at-12-58-05.jpg "Balloon Doggy for Jasmine" %}

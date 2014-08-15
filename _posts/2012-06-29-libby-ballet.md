@@ -12,11 +12,11 @@ Libby's ballet portraits.  She really liked this dance troupe.
 
 Libby ballet
 
-{% photo http://media.eick.us/images/original/2012/2012-06-29/IMG_0039.JPG "Libby's Ballet" %}
+{% photo /original/2012/2012-06-29/IMG_0039.JPG "Libby's Ballet" %}
 
 
 Libby's dance troupe
 
-{% photo http://media.eick.us/images/original/2012/2012-06-29/IMG_0040.JPG "Libby dance troupe" %}
+{% photo /original/2012/2012-06-29/IMG_0040.JPG "Libby dance troupe" %}
 
 

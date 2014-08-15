@@ -9,5 +9,5 @@ thumbsrc: http://media.eick.us/2012/2012-09-29-4/640x640/daddys-shoes-2005-01-17
 ---
 Jasmine tries on my shoes in when she was 2 (January 17, 2005).
 
-{% photo http://media.eick.us/images/original/2012/2012-09-29-4/daddys-shoes-2005-01-17.jpg "Jasmine in Daddy shoes" %}
+{% photo /original/2012/2012-09-29-4/daddys-shoes-2005-01-17.jpg "Jasmine in Daddy shoes" %}
 

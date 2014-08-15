@@ -14,15 +14,15 @@ Opening weekend at the neighborhood pool.  Already the first raft night...
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-05-27-1/2012-05-27at18.57.50.jpg "Jasmine at the pool" %}
+{% photo /original/2012/2012-05-27-1/2012-05-27at18.57.50.jpg "Jasmine at the pool" %}
 
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-05-27-1/2012-05-27at18.57.29.jpg "Libby at the pool" %}
+{% photo /original/2012/2012-05-27-1/2012-05-27at18.57.29.jpg "Libby at the pool" %}
 
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-05-27-1/2012-05-27at18.45.03.jpg "Jasmine in Mommy's sunglasses" %}
+{% photo /original/2012/2012-05-27-1/2012-05-27at18.45.03.jpg "Jasmine in Mommy's sunglasses" %}
 

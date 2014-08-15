@@ -9,22 +9,22 @@ categories:
 ---
 Who knew that you could just walk up to Parliament and get a tour?  I wonder if we can go and tour the Capitol?
 
-{% photo http://media.eick.us/images/original/2012/2012-02-12/London-50.jpg "London" %}
+{% photo /original/2012/2012-02-12/London-50.jpg "London" %}
 
 
 Woodwork in the ceiling.
 
-{% photo http://media.eick.us/images/original/2012/2012-02-12/London-51.jpg "London" %}
+{% photo /original/2012/2012-02-12/London-51.jpg "London" %}
 
 
 Entry way to into the chambers
 
-{% photo http://media.eick.us/images/original/2012/2012-02-12/London-52.jpg "London" %}
+{% photo /original/2012/2012-02-12/London-52.jpg "London" %}
 
 
 Deer (I think)
 
-{% photo http://media.eick.us/images/original/2012/2012-02-12/London-53.jpg "London" %}
+{% photo /original/2012/2012-02-12/London-53.jpg "London" %}
 
 
 Entry hall.  They used to hold jousting matches here.

@@ -10,8 +10,8 @@ categories:
 ---
 Libby and Jasmine playing jump in the basement.
 
-{% photo2 http://media.eick.us/images/original/2013/2013-02-23/Basement-Jump-2013-02-23-at-13-27-39.jpg "Jumping in the basement" %}
+{% photo /original/2013/2013-02-23/Basement-Jump-2013-02-23-at-13-27-39.jpg "Jumping in the basement" %}
 
-{% photo2 http://media.eick.us/images/original/2013/2013-02-23/Basement-Jump-2013-02-23-at-13-28-15.jpg "Jumping in the basement" %}
+{% photo /original/2013/2013-02-23/Basement-Jump-2013-02-23-at-13-28-15.jpg "Jumping in the basement" %}
 
-{% photo2 http://media.eick.us/images/original/2013/2013-02-23/Basement-Jump-2013-02-23-at-13-28-24.jpg "Jumping in the basement" %}
+{% photo /original/2013/2013-02-23/Basement-Jump-2013-02-23-at-13-28-24.jpg "Jumping in the basement" %}

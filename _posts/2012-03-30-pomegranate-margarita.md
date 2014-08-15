@@ -9,5 +9,5 @@ thumbsrc: http://media.eick.us/2012/2012-03-28/1024x1024/Random-iPhone-13.jpg
 ---
 
 
-{% photo http://media.eick.us/images/original/2012/2012-03-28/Random-iPhone-13.jpg "Pomegranate Margarita" %}
+{% photo /original/2012/2012-03-28/Random-iPhone-13.jpg "Pomegranate Margarita" %}
   

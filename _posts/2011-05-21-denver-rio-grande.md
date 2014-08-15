@@ -12,4 +12,4 @@ status: publish
 Denver & Rio Grande railroad, sometime in 1969, which makes me the baby that Mom is holding....
 
 
-{% photo2 http://media.eick.us/images/original/2006/2006-12-18/denver-rio-grande-railroad-1969.jpg "Denver and Rio Grande railroad, 1969" %}
+{% photo /original/2006/2006-12-18/denver-rio-grande-railroad-1969.jpg "Denver and Rio Grande railroad, 1969" %}

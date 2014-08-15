@@ -13,5 +13,5 @@ Jasmine draws a horse today.
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-05-11-1/jasmine-horse.jpg "Jasmine draws a horse" %}
+{% photo /original/2012/2012-05-11-1/jasmine-horse.jpg "Jasmine draws a horse" %}
 

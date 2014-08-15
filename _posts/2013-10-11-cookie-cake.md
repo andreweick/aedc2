@@ -10,4 +10,4 @@ slug: cookie-cake
 ---
 Because Libby is having problems with cake, she got a cookie cake for her birthday party at the pool.
 
-{% photo2 http://media.eick.us/images/original/2013/2013-06-09/libby-birthday-pool-party-2013-06-09-at-18-58-20.jpg "Libby's Birthday Pool Party" %}
+{% photo /original/2013/2013-06-09/libby-birthday-pool-party-2013-06-09-at-18-58-20.jpg "Libby's Birthday Pool Party" %}

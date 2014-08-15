@@ -12,5 +12,5 @@ Libby draws her family.
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-03-25/Libby-draws-family.jpg "Libby draws her family" %}
+{% photo /original/2012/2012-03-25/Libby-draws-family.jpg "Libby draws her family" %}
 

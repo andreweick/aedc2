@@ -9,6 +9,6 @@ categories:
 ---
 Jasmine poses in her soccer shirt.
 
-{% photo2 http://media.eick.us/images/original/2013/2013-01-15/lazy-saturday-2013-01-15-at-20-05-35.jpg "Jasmine poses in a soccer shirt" %}
+{% photo /original/2013/2013-01-15/lazy-saturday-2013-01-15-at-20-05-35.jpg "Jasmine poses in a soccer shirt" %}
 
-{% photo2 http://media.eick.us/images/original/2013/2013-01-15/lazy-saturday-2013-01-15-at-20-05-50.jpg "Jasmine standing" %}
+{% photo /original/2013/2013-01-15/lazy-saturday-2013-01-15-at-20-05-50.jpg "Jasmine standing" %}

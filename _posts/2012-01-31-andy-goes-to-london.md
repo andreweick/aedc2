@@ -22,9 +22,9 @@ All data-intensive endeavors share the same problem: Our assets, which include d
 A few pictures from my iPhone. (I have more pictures that I need to upload in a few days!)
 
 Jasmine and Libby video chatting with me at the airport.
-{% photo http://media.eick.us/images/original/2012/2012-01-25/IMG_3310-2.jpg "Waiting at DCA" %}
+{% photo /original/2012/2012-01-25/IMG_3310-2.jpg "Waiting at DCA" %}
 
 
 The view from the conference window.
-{% photo http://media.eick.us/images/original/2012/2012-01-25/IMG_3323-.jpg "Out of the conference room window" %}
+{% photo /original/2012/2012-01-25/IMG_3323-.jpg "Out of the conference room window" %}
 

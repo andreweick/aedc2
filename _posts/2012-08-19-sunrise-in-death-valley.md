@@ -8,5 +8,5 @@ categories:
 ---
 Sunrise in the desert.
 
-{% photo http://media.eick.us/images/original/2012/2012-08-19/2012-08-10at06.19.46.jpg "Sunrise in the desert" %}
+{% photo /original/2012/2012-08-19/2012-08-10at06.19.46.jpg "Sunrise in the desert" %}
 

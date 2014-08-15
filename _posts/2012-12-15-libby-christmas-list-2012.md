@@ -43,10 +43,10 @@ Dear Santa, I want[^1],
 Love
 Libby Eick
 
-{% photo http://media.eick.us/images/original/2012/2012-12-08/LibbyChristmasListpage1.jpg "Libby's Christmas List" %}
+{% photo /original/2012/2012-12-08/LibbyChristmasListpage1.jpg "Libby's Christmas List" %}
 
 
-{% photo http://media.eick.us/images/original/2012/2012-12-08/LibbyChristmasListpage2.jpg "Libby's Christmas List" %}
+{% photo /original/2012/2012-12-08/LibbyChristmasListpage2.jpg "Libby's Christmas List" %}
 
 
 [^1]: I told Libby that there was no way Santa could read her writing, and she had to read it to me to type

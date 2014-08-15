@@ -15,4 +15,4 @@ Jasmine writes a poem for Rusty (Mom and Dad's dog).
 I love dogs with all my heart but there is one special dog I really like is rusy, whenever I see him he makes me happy makes me smile.
 {% endblockquote %}
 
-{% photo http://media.eick.us/images/original/2012/2012-06-23/2012-06-17at16.57.45.jpg "Jasmine draws a dog" %}
+{% photo /original/2012/2012-06-23/2012-06-17at16.57.45.jpg "Jasmine draws a dog" %}

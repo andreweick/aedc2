@@ -10,12 +10,12 @@ thumbsrc: http://media.eick.us/2012/2012-07-05/1024x1024/2012-07-04at14.43.24.jp
 ---
 More balloon animals.
 
-{% photo http://media.eick.us/images/original/2012/2012-07-05/2012-07-04at14.43.24.jpg "Kitty and doggy" %}
+{% photo /original/2012/2012-07-05/2012-07-04at14.43.24.jpg "Kitty and doggy" %}
 
 
-{% photo http://media.eick.us/images/original/2012/2012-07-05/2012-07-04at14.43.21.jpg "Libby and Kitty" %}
+{% photo /original/2012/2012-07-05/2012-07-04at14.43.21.jpg "Libby and Kitty" %}
 
 
-{% photo http://media.eick.us/images/original/2012/2012-07-05/2012-07-04at14.43.18.jpg "Jasmine and doggy" %}
+{% photo /original/2012/2012-07-05/2012-07-04at14.43.18.jpg "Jasmine and doggy" %}
 
 

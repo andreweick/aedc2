@@ -11,4 +11,4 @@ The 2011 holiday card we sent out from [Mission Focus](http://missionfocus.com) 
 
 I like this one better than [Last Years!](/blog/2011/01/04/holiday-card-for-my-companies/)
 
-{% photo http://media.eick.us/images/original/2012/2012-01-15/2011-holiday-card-.jpg "2011 Christmas Card for Mission Focus and IMI" %}
+{% photo /original/2012/2012-01-15/2011-holiday-card-.jpg "2011 Christmas Card for Mission Focus and IMI" %}

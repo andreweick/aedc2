@@ -9,5 +9,5 @@ thumbsrc: http://media.eick.us/2012/2012-09-29-1/640x640/cuite-puppy.jpg
 ---
 Jasmine draws Cuite Puppy
 
-{% photo http://media.eick.us/images/original/2012/2012-09-29-1/cuite-puppy.jpg "Jasmine draws Cuite Puppy" %}
+{% photo /original/2012/2012-09-29-1/cuite-puppy.jpg "Jasmine draws Cuite Puppy" %}
 

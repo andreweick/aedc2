@@ -6,6 +6,6 @@ comments: false
 categories: 
 - Libby
 ---
-{% photo http://media.eick.us/images/original/2012/2012-01-14/2012-01-15-at-08.24.19.jpg "Libby and Minnie" %}
+{% photo /original/2012/2012-01-14/2012-01-15-at-08.24.19.jpg "Libby and Minnie" %}
 
 

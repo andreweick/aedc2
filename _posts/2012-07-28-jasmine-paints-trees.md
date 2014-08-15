@@ -9,7 +9,7 @@ thumbsrc: http://media.eick.us/2012/2012-07-28/1024x1024/2012-07-28at09.34.24.jp
 ---
 Jasmine paints trees at Art Camp.
 
-{% photo http://media.eick.us/images/original/2012/2012-07-28/2012-07-28at09.34.24.jpg "Jasmine paints a picture" %}
+{% photo /original/2012/2012-07-28/2012-07-28at09.34.24.jpg "Jasmine paints a picture" %}
 
 
-{% photo http://media.eick.us/images/original/2012/2012-07-28/2012-07-28at09.34.14.jpg "Jasmine paints trees" %}
+{% photo /original/2012/2012-07-28/2012-07-28at09.34.14.jpg "Jasmine paints trees" %}

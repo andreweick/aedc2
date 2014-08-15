@@ -12,12 +12,12 @@ categories:
 A few iPhone pictures from my travels over the last month from California
 
 
-{% photo http://media.eick.us/images/original/2012/2012-03-25/Ridgecrest-2.jpg "iPhone snap" %}
+{% photo /original/2012/2012-03-25/Ridgecrest-2.jpg "iPhone snap" %}
 
 
 
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-03-25/Ridgecrest-1.jpg "iPhone snap" %}
+{% photo /original/2012/2012-03-25/Ridgecrest-1.jpg "iPhone snap" %}
 

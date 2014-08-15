@@ -7,6 +7,6 @@ categories:
 - libby
 thumbsrc: http://media.eick.us/2012/2012-08-19-1/640x640/06-24-libby-before-swimming--2012-06-24at17-43-24.jpg
 ---
-{% photo http://media.eick.us/images/original/2012/2012-08-19-1/06-24-libby-before-swimming--2012-06-24at17-43-24.jpg "Libby Poses" %}
+{% photo /original/2012/2012-08-19-1/06-24-libby-before-swimming--2012-06-24at17-43-24.jpg "Libby Poses" %}
 
 

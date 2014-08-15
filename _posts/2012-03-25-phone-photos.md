@@ -12,7 +12,7 @@ Jasmine
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-03-25/Random-2.jpg "Jasmine" %}
+{% photo /original/2012/2012-03-25/Random-2.jpg "Jasmine" %}
 
 
 Libby
@@ -20,4 +20,4 @@ Libby
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-03-25/Random-1.jpg "Libby" %}
+{% photo /original/2012/2012-03-25/Random-1.jpg "Libby" %}

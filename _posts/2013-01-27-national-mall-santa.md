@@ -8,4 +8,4 @@ categories:
 ---
 Seeing Santa on National Mall.
 
-{% photo http://media.eick.us/images/original/2012/2012-12-26/National-mall-Sata.jpg "National Mall Santa" %}
+{% photo /original/2012/2012-12-26/National-mall-Sata.jpg "National Mall Santa" %}

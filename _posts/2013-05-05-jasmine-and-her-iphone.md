@@ -8,6 +8,6 @@ categories:
 ---
 Jasmine plays with her iPhone.
 
-{% photo2 http://media.eick.us/images/original/2013/2013-01-25/Jasmine-on-her-iPhone-2013-01-25-at-20-14-05.jpg "Jasmine on her iPhone" %}
+{% photo /original/2013/2013-01-25/Jasmine-on-her-iPhone-2013-01-25-at-20-14-05.jpg "Jasmine on her iPhone" %}
 
-{% photo2 http://media.eick.us/images/original/2013/2013-01-25/Jasmine-on-her-iPhone-2013-01-25-at-20-14-09.jpg "Jasmine on her iPhone" %}
+{% photo /original/2013/2013-01-25/Jasmine-on-her-iPhone-2013-01-25-at-20-14-09.jpg "Jasmine on her iPhone" %}

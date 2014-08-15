@@ -9,5 +9,5 @@ thumbsrc: http://media.eick.us/2012/2012-04-08/1024x1024/Random-.jpg
 ---
 Jasmine as a baby (don't know which year) as she explored with a flashlight.  Maybe this is why her eyes are bad!
 
-{% photo http://media.eick.us/images/original/2012/2012-04-08/Random-.jpg "random" %}
+{% photo /original/2012/2012-04-08/Random-.jpg "random" %}
 

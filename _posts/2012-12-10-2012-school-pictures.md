@@ -8,8 +8,8 @@ categories:
 ---
 Jasmine, grade 4, Libby, grade 3.
 
-{% photo http://media.eick.us/images/original/2012/2012-11-11-1/School-PictureDay2010-05-01at01-05-36.jpg "School Pictures" %}
+{% photo /original/2012/2012-11-11-1/School-PictureDay2010-05-01at01-05-36.jpg "School Pictures" %}
 
 
-{% photo http://media.eick.us/images/original/2012/2012-11-11-1/School-PictureDay2010-05-01at01-04-54.jpg "School Pictures" %}
+{% photo /original/2012/2012-11-11-1/School-PictureDay2010-05-01at01-04-54.jpg "School Pictures" %}
 

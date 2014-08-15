@@ -11,5 +11,5 @@ thumbsrc: http://media.eick.us/2012/2012-07-13-3/320x320/2012-06-30at14.29.12.jp
 ---
 Jasmine draws Rusty on the whiteboard.
 
-{% photo http://media.eick.us/images/original/2012/2012-07-13-3/2012-06-30at14.29.12.jpg "Jasmine draws Rusty" %}
+{% photo /original/2012/2012-07-13-3/2012-06-30at14.29.12.jpg "Jasmine draws Rusty" %}
 

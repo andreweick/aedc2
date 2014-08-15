@@ -37,4 +37,4 @@ List(s) for Disney Rides
 15. Speedway
 16. Peter Pan
 
-{% photo http://media.eick.us/images/original/2012/2012-07-07/2012-07-06at08.44.00.jpg "Disney List" %}
+{% photo /original/2012/2012-07-07/2012-07-06at08.44.00.jpg "Disney List" %}

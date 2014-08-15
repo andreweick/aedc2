@@ -13,5 +13,5 @@ thumbsrc: http://media.eick.us/2012/2012-06-30/1024x1024/2012-06-30at14.29.12.jp
 "Ruf, my name is Rusty"
 {% endblockquote %}
 
-{% photo http://media.eick.us/images/original/2012/2012-06-30/2012-06-30at14.29.12.jpg "Ruf My Name is Rusty" %}
+{% photo /original/2012/2012-06-30/2012-06-30at14.29.12.jpg "Ruf My Name is Rusty" %}
 

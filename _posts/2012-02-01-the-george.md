@@ -13,10 +13,10 @@ There are many small rooms (maybe 10 tables and a fireplace) with bars in each o
 
 It took quite a walk to find the place from Westminster to Southbank (in that I really didn't remember where it was), but I found it by the tower bridge tube station down an alley between two buildings.
 
-{% photo http://media.eick.us/images/original/2012/2012-01-25/IMG_3328-.jpg "The George Inn" %}
+{% photo /original/2012/2012-01-25/IMG_3328-.jpg "The George Inn" %}
 
 
-{% photo http://media.eick.us/images/original/2012/2012-01-25/IMG_3329-.jpg "The George Inn" %}
+{% photo /original/2012/2012-01-25/IMG_3329-.jpg "The George Inn" %}
 
 
 In case I forget where it is for next time I'm in London, go to the London Bridge tube station, and ...

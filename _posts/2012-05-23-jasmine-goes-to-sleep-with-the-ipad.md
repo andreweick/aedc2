@@ -12,5 +12,5 @@ Jasmine goes to sleep with the iPad
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-05-23/2012-05-17at21.27.40.jpg "Jasmine goes to sleep with the iPad" %}
+{% photo /original/2012/2012-05-23/2012-05-17at21.27.40.jpg "Jasmine goes to sleep with the iPad" %}
 

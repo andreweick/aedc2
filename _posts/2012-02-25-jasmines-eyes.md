@@ -11,9 +11,9 @@ Jasmine has been doing eye exercises for years to overcome a lazy eye.  The doct
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-02-13/2012-02-11-at-14.08.11.jpg "Jasmine's glasses" %}
+{% photo /original/2012/2012-02-13/2012-02-11-at-14.08.11.jpg "Jasmine's glasses" %}
 
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-02-13/2012-02-11-at-14.08.06.jpg "Jasmine's glasses" %}
+{% photo /original/2012/2012-02-13/2012-02-11-at-14.08.06.jpg "Jasmine's glasses" %}

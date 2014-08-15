@@ -12,5 +12,5 @@ Jasmine draws on the iPad.
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-03-31/Jasmine-Drawing.jpg "Jasmine draws" %}
+{% photo /original/2012/2012-03-31/Jasmine-Drawing.jpg "Jasmine draws" %}
 

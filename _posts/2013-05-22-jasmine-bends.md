@@ -9,6 +9,6 @@ categories:
 ---
 Jasmine does her gymnastics.
 
-{% photo2 http://media.eick.us/images/original/2013/2013-02-08/Jasmine-Bends-2013-02-08-at-17-05-00.jpg "Jasmine Bends" %}
+{% photo /original/2013/2013-02-08/Jasmine-Bends-2013-02-08-at-17-05-00.jpg "Jasmine Bends" %}
 
-{% photo2 http://media.eick.us/images/original/2013/2013-02-08/Jasmine-Bends-2013-02-08-at-17-05-21.jpg "Jasmine Bends" %}
+{% photo /original/2013/2013-02-08/Jasmine-Bends-2013-02-08-at-17-05-21.jpg "Jasmine Bends" %}

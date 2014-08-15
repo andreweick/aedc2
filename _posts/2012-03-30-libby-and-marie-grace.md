@@ -9,10 +9,10 @@ categories:
 ---
 
 
-{% photo http://media.eick.us/images/original/2012/2012-03-28/Random-iPhone-2.jpg "" %}
+{% photo /original/2012/2012-03-28/Random-iPhone-2.jpg "" %}
   
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-03-28/Random-iPhone-1.jpg "Libby and Marie Grace" %}
+{% photo /original/2012/2012-03-28/Random-iPhone-1.jpg "Libby and Marie Grace" %}
    

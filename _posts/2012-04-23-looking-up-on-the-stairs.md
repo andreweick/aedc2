@@ -12,5 +12,5 @@ Jasmine looking up on the staircase (carrying her macbook pro, so she must have 
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-04-19/6945620660_784d78ec77_o.jpg "Jasmine looking up on the stairs" %}
+{% photo /original/2012/2012-04-19/6945620660_784d78ec77_o.jpg "Jasmine looking up on the stairs" %}
 

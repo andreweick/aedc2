@@ -20,74 +20,74 @@ I also put together a web site for me to post pictures of the whole team.  The [
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-04-22/emerald-dragons-2012-04-14-39.jpg "" %}
+{% photo /original/2012/2012-04-22/emerald-dragons-2012-04-14-39.jpg "" %}
 
 
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-04-22/emerald-dragons-2012-04-14-33.jpg "" %}
+{% photo /original/2012/2012-04-22/emerald-dragons-2012-04-14-33.jpg "" %}
 
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-04-22/emerald-dragons-2012-04-14-19.jpg "Libby" %}
-
-
-
-
-
-{% photo http://media.eick.us/images/original/2012/2012-04-22/emerald-dragons-2012-04-14-31.jpg "" %}
+{% photo /original/2012/2012-04-22/emerald-dragons-2012-04-14-19.jpg "Libby" %}
 
 
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-04-22/emerald-dragons-2012-04-14-30.jpg "" %}
-
-
-
-
-{% photo http://media.eick.us/images/original/2012/2012-04-22/emerald-dragons-2012-04-14-29.jpg "" %}
+{% photo /original/2012/2012-04-22/emerald-dragons-2012-04-14-31.jpg "" %}
 
 
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-04-22/emerald-dragons-2012-04-14-25.jpg "" %}
+{% photo /original/2012/2012-04-22/emerald-dragons-2012-04-14-30.jpg "" %}
+
+
+
+
+{% photo /original/2012/2012-04-22/emerald-dragons-2012-04-14-29.jpg "" %}
 
 
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-04-22/emerald-dragons-2012-04-14-24.jpg "" %}
+{% photo /original/2012/2012-04-22/emerald-dragons-2012-04-14-25.jpg "" %}
+
+
+
+
+
+{% photo /original/2012/2012-04-22/emerald-dragons-2012-04-14-24.jpg "" %}
 
 
 
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-04-22/emerald-dragons-2012-04-14-14.jpg "Jasmine jockey's for position" %}
+{% photo /original/2012/2012-04-22/emerald-dragons-2012-04-14-14.jpg "Jasmine jockey's for position" %}
 
 
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-04-22/emerald-dragons-2012-04-14-12.jpg "chasing down the ball" %}
+{% photo /original/2012/2012-04-22/emerald-dragons-2012-04-14-12.jpg "chasing down the ball" %}
 
 
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-04-22/emerald-dragons-2012-04-14-3.jpg "" %}
+{% photo /original/2012/2012-04-22/emerald-dragons-2012-04-14-3.jpg "" %}
 
 
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-04-22/emerald-dragons-2012-04-14-2.jpg "" %}
+{% photo /original/2012/2012-04-22/emerald-dragons-2012-04-14-2.jpg "" %}
 
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-04-22/emerald-dragons-2012-04-14-1.jpg "" %}
+{% photo /original/2012/2012-04-22/emerald-dragons-2012-04-14-1.jpg "" %}

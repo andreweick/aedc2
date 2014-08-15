@@ -12,5 +12,5 @@ Jasmine takes a picture of Andy
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-05-06-2/libby-communion-12.jpg "Jasmine takes a picture of Andy" %}
+{% photo /original/2012/2012-05-06-2/libby-communion-12.jpg "Jasmine takes a picture of Andy" %}
 

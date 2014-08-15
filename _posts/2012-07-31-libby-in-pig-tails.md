@@ -10,5 +10,5 @@ thumbsrc: http://media.eick.us/2012/2012-07-31/1024x1024/2012-07-28at10.34.28.jp
 ---
 Libby in Pig Tails
 
-{% photo http://media.eick.us/images/original/2012/2012-07-31/2012-07-28at10.34.28.jpg "Libby in Pig Tails" %}
+{% photo /original/2012/2012-07-31/2012-07-28at10.34.28.jpg "Libby in Pig Tails" %}
 

@@ -11,5 +11,5 @@ Sally (Mom) and kids on route to england (1965)
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-05-17/Sally-and-kids-on-route-to-england.jpg "Sally and kids on route to england (1965)" %}
+{% photo /original/2012/2012-05-17/Sally-and-kids-on-route-to-england.jpg "Sally and kids on route to england (1965)" %}
 

@@ -8,4 +8,4 @@ categories:
 - disney
 slug: libby-and-jasmine-and-rafiki
 ---
-{% photo2 http://media.eick.us/images/original/2013/2013-07-03/photo-1.jpg "Rafiki" %}
+{% photo /original/2013/2013-07-03/photo-1.jpg "Rafiki" %}

@@ -13,4 +13,4 @@ slug: libby-and-josefina
 ---
 Libby poses with Josefina.
 
-{% photo2 http://media.eick.us/images/original/2013/2013-05-05/libby-and-josephine-2013-05-05-at-08-40-03.jpg "Libby and Josephine" %}
+{% photo /original/2013/2013-05-05/libby-and-josephine-2013-05-05-at-08-40-03.jpg "Libby and Josephine" %}

@@ -12,5 +12,5 @@ Libby warms up for her [piano recital](/blog/2012/03/31/march-18-recital/) while
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-03-28/Random-iPhone-3.jpg "Libby warms up" %}
+{% photo /original/2012/2012-03-28/Random-iPhone-3.jpg "Libby warms up" %}
   

@@ -12,17 +12,17 @@ Libby in her ballet costume
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-06-03/05-19-libby-ballet-costume-15.jpg "Libby in her  Ballet costume" %}
+{% photo /original/2012/2012-06-03/05-19-libby-ballet-costume-15.jpg "Libby in her  Ballet costume" %}
 
 
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-06-03/05-19-libby-ballet-costume-12.jpg "Libby in her  Ballet costume" %}
+{% photo /original/2012/2012-06-03/05-19-libby-ballet-costume-12.jpg "Libby in her  Ballet costume" %}
 
 
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-06-03/05-19-libby-ballet-costume-4.jpg "Libby in her  Ballet costume" %}
+{% photo /original/2012/2012-06-03/05-19-libby-ballet-costume-4.jpg "Libby in her  Ballet costume" %}
 

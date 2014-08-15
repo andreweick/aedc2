@@ -9,4 +9,4 @@ thumbsrc: http://media.eick.us/2012/2012-08-25-1/640x640/2012-08-09at14.40.43.jp
 ---
 It's hot desert hot out here. 
 
-{% photo http://media.eick.us/images/original/2012/2012-08-25-1/2012-08-09at14.40.43.jpg "It's hot out here!" %}
+{% photo /original/2012/2012-08-25-1/2012-08-09at14.40.43.jpg "It's hot out here!" %}

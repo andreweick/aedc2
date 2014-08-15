@@ -9,5 +9,5 @@ categories:
 ---
 Jasmine's birthday notice in the Washington Posts "KidsPost" section.
 
-{% photo http://media.eick.us/images/original/2012/2012-07-26-1/IMG_0065.JPG "Jasmine in Kid's Post" %}
+{% photo /original/2012/2012-07-26-1/IMG_0065.JPG "Jasmine in Kid's Post" %}
 

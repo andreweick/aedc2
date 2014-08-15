@@ -16,45 +16,45 @@ All the Emerald Dragons are at the [team site](http://eick.us/emerald-dragons), 
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-05-06-3/2012-05-05-Crazy-Chameleons1.jpg "" %}
+{% photo /original/2012/2012-05-06-3/2012-05-05-Crazy-Chameleons1.jpg "" %}
 
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-05-06-3/2012-05-05-Crazy-Chameleons2.jpg "" %}
+{% photo /original/2012/2012-05-06-3/2012-05-05-Crazy-Chameleons2.jpg "" %}
 
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-05-06-3/2012-05-05-Crazy-Chameleons3.jpg "" %}
+{% photo /original/2012/2012-05-06-3/2012-05-05-Crazy-Chameleons3.jpg "" %}
 
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-05-06-3/2012-05-05-Crazy-Chameleons4.jpg "" %}
+{% photo /original/2012/2012-05-06-3/2012-05-05-Crazy-Chameleons4.jpg "" %}
 
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-05-06-3/2012-05-05-Crazy-Chameleons5.jpg "" %}
+{% photo /original/2012/2012-05-06-3/2012-05-05-Crazy-Chameleons5.jpg "" %}
 
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-05-06-3/2012-05-05-Crazy-Chameleons6.jpg "" %}
+{% photo /original/2012/2012-05-06-3/2012-05-05-Crazy-Chameleons6.jpg "" %}
 
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-05-06-3/2012-05-05-Crazy-Chameleons7.jpg "" %}
+{% photo /original/2012/2012-05-06-3/2012-05-05-Crazy-Chameleons7.jpg "" %}
 
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-05-06-3/2012-05-05-Crazy-Chameleons8.jpg "" %}
+{% photo /original/2012/2012-05-06-3/2012-05-05-Crazy-Chameleons8.jpg "" %}
 
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-05-06-3/2012-05-05-Crazy-Chameleons9.jpg "" %}
+{% photo /original/2012/2012-05-06-3/2012-05-05-Crazy-Chameleons9.jpg "" %}
 

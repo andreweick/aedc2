@@ -11,17 +11,17 @@ categories:
 ---
 [We](http://imintel.org) gave a seminar at [Oak Ridge National Labs](http://ornl.gov) a few weeks ago on our work with [large data and cloud computing](http://www.ornl.gov/ornlhome/calendar/calendar_full.cfm?Id=5104).  The seminar was well attended and the discussions were thought provoking.  Being around research scientists reminded me of growing up.  While we were there they gave us a tour of the facilities, from the High Flux Isotope Reactor to the preserved [Graphite Reactor](http://www.ornl.gov/info/news/cco/graphite.shtml).
 
-{% photo http://media.eick.us/images/original/2012/2012-02-11/2012-02-07-at-14.54.25_Snapseed.jpg "ORNL" %}
+{% photo /original/2012/2012-02-11/2012-02-07-at-14.54.25_Snapseed.jpg "ORNL" %}
 
 Worlds biggest computer.  They told me how many terra-flops per-second by I forgot.  I told Jasmine that I saw the worlds biggest computer, and she was very excited to see the pictures.  She was disappointed because she thought it would look like a giant MacBook Pro.
 
-{% photo http://media.eick.us/images/original/2012/2012-02-11/2012-02-07-at-15.33.20.jpg "original" %}
+{% photo /original/2012/2012-02-11/2012-02-07-at-15.33.20.jpg "original" %}
 
 Because of my credentials, they were able to take us in the back door of the graphite reactor.  A dusty and decaying building that they were struggling to preserve.  This was one of the computers in the original control room -- I would imagine that my iPhone is more powerful then the computer that controled our first nuclear reactor.
 
-{% photo http://media.eick.us/images/original/2012/2012-02-11/2012-02-07-at-15.34.54.jpg "original" %}
+{% photo /original/2012/2012-02-11/2012-02-07-at-15.34.54.jpg "original" %}
 
-{% photo http://media.eick.us/images/original/2012/2012-02-11/2012-02-07-at-15.37.08.jpg "original" %}
+{% photo /original/2012/2012-02-11/2012-02-07-at-15.37.08.jpg "original" %}
 
 The graphite reactor loading face.  It was neat seeing the pictures in the visitor center of the famous people (from Einstein to Fermi to Kennedy) who viewed toured the reactor.
 

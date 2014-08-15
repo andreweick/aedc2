@@ -9,5 +9,5 @@ thumbsrc: http://media.eick.us/2012/2012-07-27-1/1024x1024/Libby-cast-from-no-st
 ---
 Libby's cast for No Strings Attached.
 
-{% photo http://media.eick.us/images/original/2012/2012-07-27-1/Libby-cast-from-no-string.jpg "Libby's cast for No Strings Attached" %}
+{% photo /original/2012/2012-07-27-1/Libby-cast-from-no-string.jpg "Libby's cast for No Strings Attached" %}
 

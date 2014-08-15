@@ -13,5 +13,5 @@ Jasmine, however, has seen Iwo Jima memorial (several times) and couldn't wake e
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-05-04/2012-04-28at17.24.01.jpg "Jasmine sleeping at Iwo Jima memorial" %}
+{% photo /original/2012/2012-05-04/2012-04-28at17.24.01.jpg "Jasmine sleeping at Iwo Jima memorial" %}
 

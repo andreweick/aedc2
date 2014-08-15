@@ -46,6 +46,6 @@ Mom says:
 My dad used to tell us that when the twin girls were born they did not expect them to live.  They put each one in a shoe box next to the fire (heating stove or whatever) and pulled them through.  My sister, Liz, lived with Harriet and her family one summer when she worked in D.C.
 {% endblockquote %}
 
-{% photo2 http://media.eick.us/images/original/2013/2013-11-08/harriett-sackett-newspaper-2.jpg "Newspaper" %}
+{% photo /original/2013/2013-11-08/harriett-sackett-newspaper-2.jpg "Newspaper" %}
 
-{% photo2 http://media.eick.us/images/original/2013/2013-11-08/harriett-sackett-newspaper-1.jpg "Newpaper article" %}
+{% photo /original/2013/2013-11-08/harriett-sackett-newspaper-1.jpg "Newpaper article" %}

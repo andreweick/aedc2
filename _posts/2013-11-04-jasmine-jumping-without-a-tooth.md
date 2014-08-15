@@ -10,6 +10,6 @@ slug: jasmine-jumping-without-a-tooth
 ---
 Jasmine jumping without a tooth.
 
-{% photo2 http://media.eick.us/images/original/2013/2013-10-30/jasmine-jumping-2013-10-30-at-19-57-05.jpg "Jasmine Jumping" %}
+{% photo /original/2013/2013-10-30/jasmine-jumping-2013-10-30-at-19-57-05.jpg "Jasmine Jumping" %}
 
-{% photo2 http://media.eick.us/images/original/2013/2013-10-30/jasmine-jumping-2013-10-30-at-19-58-41.jpg "Jasmine Jumping" %}
+{% photo /original/2013/2013-10-30/jasmine-jumping-2013-10-30-at-19-58-41.jpg "Jasmine Jumping" %}

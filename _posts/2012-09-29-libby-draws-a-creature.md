@@ -9,5 +9,5 @@ categories:
 ---
 Libby draws a creature.
 
-{% photo http://media.eick.us/images/original/2012/2012-09-29-3/IMG_0004.jpg "Libby draws a creature" %}
+{% photo /original/2012/2012-09-29-3/IMG_0004.jpg "Libby draws a creature" %}
 

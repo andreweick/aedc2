@@ -12,6 +12,6 @@ slug: face-painting
 ---
 Jasmine and Libby get their face painted and hair extensions at the fair.
 
-{% photo2 http://media.eick.us/images/original/2013/2013-05-05/jasmine.jpg "" %}
+{% photo /original/2013/2013-05-05/jasmine.jpg "" %}
 
-{% photo2 http://media.eick.us/images/original/2013/2013-05-05/libby.jpg "" %}
+{% photo /original/2013/2013-05-05/libby.jpg "" %}

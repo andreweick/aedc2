@@ -12,10 +12,10 @@ Riding the carousel
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-05-23/2012-05-19at16.06.29.jpg "Riding the carousel" %}
+{% photo /original/2012/2012-05-23/2012-05-19at16.06.29.jpg "Riding the carousel" %}
 
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-05-23/2012-05-19at14.59.36.jpg "Riding the carousel" %}
+{% photo /original/2012/2012-05-23/2012-05-19at14.59.36.jpg "Riding the carousel" %}
 

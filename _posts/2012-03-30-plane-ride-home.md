@@ -14,25 +14,25 @@ A couple iPhone photos from the plane ride home.  They were tired from a long fe
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-03-28/Random-iPhone-11.jpg "iPhone photos from the plane ride home" %}
+{% photo /original/2012/2012-03-28/Random-iPhone-11.jpg "iPhone photos from the plane ride home" %}
   
 
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-03-28/Random-iPhone-10.jpg "iPhone photos from the plane ride home" %}
+{% photo /original/2012/2012-03-28/Random-iPhone-10.jpg "iPhone photos from the plane ride home" %}
   
 
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-03-28/Random-iPhone-9.jpg "iPhone photos from the plane ride home" %}
+{% photo /original/2012/2012-03-28/Random-iPhone-9.jpg "iPhone photos from the plane ride home" %}
   
 
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-03-28/Random-iPhone-8.jpg "iPhone photos from the plane ride home" %}
+{% photo /original/2012/2012-03-28/Random-iPhone-8.jpg "iPhone photos from the plane ride home" %}
   
 
 Marie Grace sleeps in the hotel.  It's been since Christmas, and Libby still puts her to bed and dresses her every morning.

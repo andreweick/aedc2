@@ -10,10 +10,10 @@ slug: horse-camp
 ---
 Pictures from Horse Camp.
 
-{% photo2 http://media.eick.us/images/original/2013/2013-06-28/horse-camp-2013-06-28-at-18-51-23-1.jpg "Horse Camp" %}
+{% photo /original/2013/2013-06-28/horse-camp-2013-06-28-at-18-51-23-1.jpg "Horse Camp" %}
 
-{% photo2 http://media.eick.us/images/original/2013/2013-06-28/horse-camp-2013-06-28-at-18-51-23.jpg "Horse Camp" %}
+{% photo /original/2013/2013-06-28/horse-camp-2013-06-28-at-18-51-23.jpg "Horse Camp" %}
 
-{% photo2 http://media.eick.us/images/original/2013/2013-07-12/horse-camp-2013-07-12-at-20-34-18-1.jpg "Horse Camp" %}
+{% photo /original/2013/2013-07-12/horse-camp-2013-07-12-at-20-34-18-1.jpg "Horse Camp" %}
 
-{% photo2 http://media.eick.us/images/original/2013/2013-07-12/horse-camp-2013-07-12-at-20-34-18.jpg "Horse Camp" %}
+{% photo /original/2013/2013-07-12/horse-camp-2013-07-12-at-20-34-18.jpg "Horse Camp" %}

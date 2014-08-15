@@ -10,4 +10,4 @@ categories:
 - studio
 ---
 
-{% photo2 http://media.eick.us/images/original/2013/2013-01-11/Libby-Book-2013-01-11-at-18-04-00.jpg "Libby holding her book" %}
+{% photo /original/2013/2013-01-11/Libby-Book-2013-01-11-at-18-04-00.jpg "Libby holding her book" %}

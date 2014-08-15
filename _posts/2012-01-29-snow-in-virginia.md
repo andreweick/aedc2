@@ -9,5 +9,5 @@ categories:
 ---
 Blizzard conditions in Virginia let's Jasmine get out into the snow.  (20 minutes after this picture she was crying with a bloody split lip)
 
-{% photo http://media.eick.us/images/original/2012/2012-01-25/IMG_3309-1.jpg "Jasmine in the snow" %}
+{% photo /original/2012/2012-01-25/IMG_3309-1.jpg "Jasmine in the snow" %}
 

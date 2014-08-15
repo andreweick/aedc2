@@ -11,4 +11,4 @@ status: publish
 ---
 Dad took this picture while traveling through Wiesbaden, German in 1962.  This must have been during his sabbatical at the University of Stockholm.  These pictures were scanned from slides, so that’s where the black border comes from.  Looking at the old cars that line the streets is fun… I wonder which car is the Eick mobile
 
-{% photo2 http://media.eick.us/images/original/2006/2006-12-17/germany-1962.jpg "Wiesbaden Germany, 1962" %}
+{% photo /original/2006/2006-12-17/germany-1962.jpg "Wiesbaden Germany, 1962" %}

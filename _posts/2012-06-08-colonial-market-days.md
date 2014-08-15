@@ -13,88 +13,88 @@ Jasmine eating in her colonial dress
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-06-08/05-20-market-day-155.jpg "Jasmine eating in her colonial dress" %}
+{% photo /original/2012/2012-06-08/05-20-market-day-155.jpg "Jasmine eating in her colonial dress" %}
 
 
 Libby sitting in the hut (holding Betsy the doll)
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-06-08/05-20-market-day-143.jpg "Libby sitting in the hut (holding Betsy the doll" %}
+{% photo /original/2012/2012-06-08/05-20-market-day-143.jpg "Libby sitting in the hut (holding Betsy the doll" %}
 
 
 Libby and Jasmine in the window
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-06-08/05-20-market-day-116.jpg "Libby and Jasmine in the window" %}
+{% photo /original/2012/2012-06-08/05-20-market-day-116.jpg "Libby and Jasmine in the window" %}
 
 
 Libby smiles
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-06-08/05-20-market-day-112.jpg "Libby smiles" %}
+{% photo /original/2012/2012-06-08/05-20-market-day-112.jpg "Libby smiles" %}
 
 
 Libby setting up the game
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-06-08/05-20-market-day-88.jpg "Libby setting up the game" %}
+{% photo /original/2012/2012-06-08/05-20-market-day-88.jpg "Libby setting up the game" %}
 
 
 Jasmine waiting to bowl.
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-06-08/05-20-market-day-75.jpg "Jasmine waiting to bowl" %}
+{% photo /original/2012/2012-06-08/05-20-market-day-75.jpg "Jasmine waiting to bowl" %}
 
 
 Libby bowls
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-06-08/05-20-market-day-64.jpg "Libby bowls" %}
+{% photo /original/2012/2012-06-08/05-20-market-day-64.jpg "Libby bowls" %}
 
 
 Libby getting ready
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-06-08/05-20-market-day-63.jpg "Libby getting ready" %}
+{% photo /original/2012/2012-06-08/05-20-market-day-63.jpg "Libby getting ready" %}
 
 
 Jasmine on the ropes
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-06-08/05-20-market-day-50.jpg "Jasmine on the ropes" %}
+{% photo /original/2012/2012-06-08/05-20-market-day-50.jpg "Jasmine on the ropes" %}
 
 
 Blacksmith
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-06-08/05-20-market-day-23.jpg "Blacksmith" %}
+{% photo /original/2012/2012-06-08/05-20-market-day-23.jpg "Blacksmith" %}
 
 
 Pottery
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-06-08/05-20-market-day-11.jpg "Pottery" %}
+{% photo /original/2012/2012-06-08/05-20-market-day-11.jpg "Pottery" %}
 
 
 Libby and Jasmine
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-06-08/05-20-market-day-4.jpg "Libby and Jasmine" %}
+{% photo /original/2012/2012-06-08/05-20-market-day-4.jpg "Libby and Jasmine" %}
 
 
 Libby and Betsy
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-06-08/05-20-market-day-1.jpg "Libby and Betsy" %}
+{% photo /original/2012/2012-06-08/05-20-market-day-1.jpg "Libby and Betsy" %}

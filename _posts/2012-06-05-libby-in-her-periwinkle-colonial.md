@@ -12,9 +12,9 @@ Libby in her periwinkle colonial acting surprised.
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-06-05/Libby-in-her-colonial-5.jpg "Libby" %}
+{% photo /original/2012/2012-06-05/Libby-in-her-colonial-5.jpg "Libby" %}
 
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-06-05/Libby-in-her-colonial-4.jpg "Libby" %}
+{% photo /original/2012/2012-06-05/Libby-in-her-colonial-4.jpg "Libby" %}

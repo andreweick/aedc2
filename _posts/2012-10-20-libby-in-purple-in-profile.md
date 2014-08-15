@@ -9,5 +9,5 @@ thumbsrc: http://media.eick.us/2012/2012-10-20/640x640/Studio2012-10-19at19-30-3
 ---
 Libby in Purple in Profile.
 
-{% photo http://media.eick.us/images/original/2012/2012-10-20/Studio2012-10-19at19-30-39-2012-10-19at19-30-39.jpg "Studio" %}
+{% photo /original/2012/2012-10-20/Studio2012-10-19at19-30-39-2012-10-19at19-30-39.jpg "Studio" %}
 

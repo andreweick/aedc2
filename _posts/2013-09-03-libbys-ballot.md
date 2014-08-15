@@ -13,4 +13,4 @@ Libby and Jasmine's first day of school was today.  Jasmine just wore T-shirt an
 
 Jasmine practiced raising her hand at breakfast this morning because she wasn't sure she remembered how to.  (Is it palm outwards toward the teacher?  or sideways?  She couldn't remember -- it's been a long summer!)
 
-{% photo2 http://media.eick.us/images/original/2013/2013-08-30/2013-08-30-at-11-11-36.jpg "Libby Ballot" %}
+{% photo /original/2013/2013-08-30/2013-08-30-at-11-11-36.jpg "Libby Ballot" %}

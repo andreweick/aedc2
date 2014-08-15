@@ -9,7 +9,7 @@ categories:
 - family
 status: publish
 ---
-{% photo2 http://media.eick.us/images/original/2010/2010-05-07/sally-highlander-portrait-1952.jpg "Mom, Highlander, historical" %}
+{% photo /original/2010/2010-05-07/sally-highlander-portrait-1952.jpg "Mom, Highlander, historical" %}
 
 Photograph of my Mom from 1952 or so.  She played the bagpipes in [The Scottish Highlanders of the University of Iowa][1], and was getting ready to go to Europe on a tour.  She actually looks like my sister and Libby.  You can see the Sackett.
 

@@ -10,5 +10,5 @@ thumbsrc: http://media.eick.us/2012/2012-07-15/1024x1024/2012-07-14at17.40.42.jp
 ---
 Libby, Jasmine, and Julia at Starbucks.
 
-{% photo http://media.eick.us/images/original/2012/2012-07-15/2012-07-14at17.40.42.jpg "Starbucks" %}
+{% photo /original/2012/2012-07-15/2012-07-14at17.40.42.jpg "Starbucks" %}
 

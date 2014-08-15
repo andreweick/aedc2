@@ -10,8 +10,8 @@ slug: not-libby-dancing
 ---
 Some pictures I took at Libby's dance recital in the spring which were not Libby's class.
 
-{% photo2 http://media.eick.us/images/original/2013/2013-06-01/libby-ballet-recital-2013-06-01-at-10-08-40.jpg "Libby Ballet Recital" %}
+{% photo /original/2013/2013-06-01/libby-ballet-recital-2013-06-01-at-10-08-40.jpg "Libby Ballet Recital" %}
 
-{% photo2 http://media.eick.us/images/original/2013/2013-06-01/libby-ballet-recital-2013-06-01-at-10-31-38.jpg "Libby Ballet Recital" %}
+{% photo /original/2013/2013-06-01/libby-ballet-recital-2013-06-01-at-10-31-38.jpg "Libby Ballet Recital" %}
 
-{% photo2 http://media.eick.us/images/original/2013/2013-06-01/libby-ballet-recital-2013-06-01-at-10-31-48.jpg "Libby Ballet Recital" %}
+{% photo /original/2013/2013-06-01/libby-ballet-recital-2013-06-01-at-10-31-48.jpg "Libby Ballet Recital" %}

@@ -12,4 +12,4 @@ status: publish
 ---
 This is the only picture I have found of my grandpa Eick, taken in 1921, with two of my cousins on my dad's side, Helen & Loretta Daley.  I really never knew these cousins--they were much older than I.   One of them became a carmelite nun.
 
-{% photo2 http://media.eick.us/images/original/2009/2009-06-22/granpa-grandpa-eick-1921.jpg "John Eick Sr." %}
+{% photo /original/2009/2009-06-22/granpa-grandpa-eick-1921.jpg "John Eick Sr." %}

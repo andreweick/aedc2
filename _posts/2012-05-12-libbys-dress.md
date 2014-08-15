@@ -13,15 +13,15 @@ Libby modeling her first communion dress
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-05-06-1/libby-dress-1.jpg "" %}
+{% photo /original/2012/2012-05-06-1/libby-dress-1.jpg "" %}
 
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-05-06-1/libby-dress-2.jpg "" %}
+{% photo /original/2012/2012-05-06-1/libby-dress-2.jpg "" %}
 
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-05-06-1/libby-dress-3.jpg "" %}
+{% photo /original/2012/2012-05-06-1/libby-dress-3.jpg "" %}
 

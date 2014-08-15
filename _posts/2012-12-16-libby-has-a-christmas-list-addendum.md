@@ -9,6 +9,6 @@ categories:
 ---
 Libby has an addendum to her Christmas List that she wants me to email Santa. (Email is faster than mail)
 
-{% photo http://media.eick.us/images/original/2012/2012-12-16/libby-santa-addendum.jpg "Libby adds addendum to Christmas List" %}
+{% photo /original/2012/2012-12-16/libby-santa-addendum.jpg "Libby adds addendum to Christmas List" %}
 
 

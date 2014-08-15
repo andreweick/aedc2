@@ -12,20 +12,20 @@ Libby wanted to go down to Old Town (Alexandria) and walk around after church.  
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-05-06-2/libby-communion-5.jpg "" %}
+{% photo /original/2012/2012-05-06-2/libby-communion-5.jpg "" %}
 
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-05-06-2/libby-communion-6.jpg "" %}
+{% photo /original/2012/2012-05-06-2/libby-communion-6.jpg "" %}
 
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-05-06-2/libby-communion-7.jpg "" %}
+{% photo /original/2012/2012-05-06-2/libby-communion-7.jpg "" %}
 
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-05-06-2/libby-communion-8.jpg "" %}
+{% photo /original/2012/2012-05-06-2/libby-communion-8.jpg "" %}
 

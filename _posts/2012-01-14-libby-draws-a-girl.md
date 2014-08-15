@@ -8,6 +8,6 @@ categories:
 - libby
 - kids drawing
 ---
-{% photo http://media.eick.us/images/original/2012/2012-01-14/2012-01-14-at-18.33.00.jpg "Libby draws a girl" %}
+{% photo /original/2012/2012-01-14/2012-01-14-at-18.33.00.jpg "Libby draws a girl" %}
 
 

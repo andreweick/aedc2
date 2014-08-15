@@ -14,4 +14,4 @@ status: publish
 ---
 A picture from August of 2009 where Libby was pretty sunburned....
 
-{% photo2 http://media.eick.us/images/original/2012/2012-04-01/Libby-Sunburnned-2012-04-01-at-07.53.50.jpg "Libby Sunburned" %}
+{% photo /original/2012/2012-04-01/Libby-Sunburnned-2012-04-01-at-07.53.50.jpg "Libby Sunburned" %}

@@ -12,5 +12,5 @@ Libby and Jasmine...
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-05-06-2/libby-communion-15.jpg "Libby and Jasmine" %}
+{% photo /original/2012/2012-05-06-2/libby-communion-15.jpg "Libby and Jasmine" %}
 

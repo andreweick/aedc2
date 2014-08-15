@@ -26,4 +26,4 @@ Mr. and Mrs. Sackett lived on a farm in Adair county from 1870-1896, when they c
 
 This happy anniversary not only brought joy to the Sackett family, but to this community as well.
 
-{% photo2 http://media.eick.us/images/original/2010/2010-05-07/sackett-family-golden-1917-newspaper.jpg "Sackett Golden 1917" %}
+{% photo /original/2010/2010-05-07/sackett-family-golden-1917-newspaper.jpg "Sackett Golden 1917" %}

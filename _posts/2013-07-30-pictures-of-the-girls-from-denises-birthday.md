@@ -10,10 +10,10 @@ slug: pictures-of-the-girls-from-denises-birthday
 ---
 Denise's birthday (from March!)
 
-{% photo2 http://media.eick.us/images/original/2013/2013-03-21/denise-birthday-2013-03-21-at-18-28-47.jpg "Denise birthday" %}
+{% photo /original/2013/2013-03-21/denise-birthday-2013-03-21-at-18-28-47.jpg "Denise birthday" %}
 
-{% photo2 http://media.eick.us/images/original/2013/2013-03-21/denise-birthday-2013-03-21-at-18-29-17.jpg "Denise birthday" %}
+{% photo /original/2013/2013-03-21/denise-birthday-2013-03-21-at-18-29-17.jpg "Denise birthday" %}
 
-{% photo2 http://media.eick.us/images/original/2013/2013-03-21/denise-birthday-2013-03-21-at-18-31-32.jpg "Denise birthday" %}
+{% photo /original/2013/2013-03-21/denise-birthday-2013-03-21-at-18-31-32.jpg "Denise birthday" %}
 
-{% photo2 http://media.eick.us/images/original/2013/2013-03-21/denise-birthday-2013-03-21-at-18-31-43.jpg "Denise birthday" %}
+{% photo /original/2013/2013-03-21/denise-birthday-2013-03-21-at-18-31-43.jpg "Denise birthday" %}

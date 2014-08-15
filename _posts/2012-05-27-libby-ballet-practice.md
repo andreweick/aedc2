@@ -14,5 +14,5 @@ Libby at ballet practice -- getting ready for the big recital!
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-05-27/libby-ballet_Snapseed.jpg "Libby at ballet practice" %}
+{% photo /original/2012/2012-05-27/libby-ballet_Snapseed.jpg "Libby at ballet practice" %}
 

@@ -10,26 +10,26 @@ categories:
 ---
 London
 
-{% photo http://media.eick.us/images/original/2012/2012-02-12/London-44.jpg "London" %}
+{% photo /original/2012/2012-02-12/London-44.jpg "London" %}
 
 
 Just can't take a bad picture of the detail on the clock face.  The trouble is getting a good perspective.
 
-{% photo http://media.eick.us/images/original/2012/2012-02-12/London-45.jpg "London" %}
+{% photo /original/2012/2012-02-12/London-45.jpg "London" %}
 
 
-{% photo http://media.eick.us/images/original/2012/2012-02-12/London-46.jpg "London" %}
+{% photo /original/2012/2012-02-12/London-46.jpg "London" %}
 
 
 More detail of westminster abbey
 
-{% photo http://media.eick.us/images/original/2012/2012-02-12/London-55.jpg "London" %}
+{% photo /original/2012/2012-02-12/London-55.jpg "London" %}
 
 
 Abbey from the conference room (iPhone photo)
 
-{% photo http://media.eick.us/images/original/2012/2012-02-12/London-47.jpg "London" %}
+{% photo /original/2012/2012-02-12/London-47.jpg "London" %}
 
 
-{% photo http://media.eick.us/images/original/2012/2012-02-12/London-49.jpg "London" %}
+{% photo /original/2012/2012-02-12/London-49.jpg "London" %}
 

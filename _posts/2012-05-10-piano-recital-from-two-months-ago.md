@@ -14,29 +14,29 @@ Libby took Marie Grace in her Mardi Gras dress, and held her while she waited to
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-05-06/piano-recital-1.jpg "Acting surprised" %}
+{% photo /original/2012/2012-05-06/piano-recital-1.jpg "Acting surprised" %}
 
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-05-06/piano-recital-2.jpg "Libby waiting her turn" %}
+{% photo /original/2012/2012-05-06/piano-recital-2.jpg "Libby waiting her turn" %}
 
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-05-06/piano-recital-3.jpg "Jasmine all dressed up" %}
+{% photo /original/2012/2012-05-06/piano-recital-3.jpg "Jasmine all dressed up" %}
 
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-05-06/piano-recital-4.jpg "Libby and Marie Grace" %}
+{% photo /original/2012/2012-05-06/piano-recital-4.jpg "Libby and Marie Grace" %}
 
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-05-06/piano-recital-5.jpg "Libby showing off her dress" %}
+{% photo /original/2012/2012-05-06/piano-recital-5.jpg "Libby showing off her dress" %}
 
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-05-06/piano-recital-6.jpg "Libby looking into the light" %}
+{% photo /original/2012/2012-05-06/piano-recital-6.jpg "Libby looking into the light" %}

@@ -12,5 +12,5 @@ Jasmine draws a palm tree on a beach.  Jasmine says it was really easy to draw, 
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-04-08/IMG_0005.JPG "Jasmine draws a beach" %}
+{% photo /original/2012/2012-04-08/IMG_0005.JPG "Jasmine draws a beach" %}
 

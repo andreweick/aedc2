@@ -13,4 +13,4 @@ Jasmine draws a pony
 
 
 
-{% photo http://media.eick.us/images/original/2012/2012-05-12/IMG_0003.JPG "Jasmine draws a pony" %}
+{% photo /original/2012/2012-05-12/IMG_0003.JPG "Jasmine draws a pony" %}
