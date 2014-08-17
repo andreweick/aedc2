@@ -47,7 +47,7 @@ module Jekyll
         filename = @photo.split("/")[-1]
 
         postYear = context["page"]["date"].year
-        mediaUrl = File.join(context["site"]["mediaurl"], context["site"]["mediadir"])
+        mediaUrl = File.join(context["site"]["mediaurl"], context["site"]["mediadir"],year, directory)
 
           # <picture>
           #   <source srcset="examples/images/extralarge.jpg" media="(min-width: 1000px)">
@@ -71,10 +71,10 @@ module Jekyll
           # <span id="photo-caption">#{@alt}</span><span id='photo-copyright'>\u00A9 #{postYear} M. Andrew Eick</span>
         picturefillDiv = ERB.new <<-PICTUREFILLTEMPLATE.gsub(/^ {10}/,'')
           <picture>
-            <source srcset="<%= mediaUrl %>/<%= year %>/<%= directory %>/2560/<%= filename %>" media="(min-width: 1000px)">
-            <source srcset="<%= mediaUrl %>/<%= year %>/<%= directory %>/1280/<%= filename %>" media="(min-width: 768px)">
-            <source srcset="<%= mediaUrl %>/<%= year %>/<%= directory %>/640/<%= filename %>" media="(min-width: 480)">
-            <img srcset="<%= mediaUrl %>/<%= year %>/<%= directory %>/320/<%= filename %>">
+            <source srcset="<%= mediaUrl %>/2560/<%= filename %>" media="(min-width: 1000px)">
+            <source srcset="<%= mediaUrl %>/1280/<%= filename %>" media="(min-width: 768px)">
+            <source srcset="<%= mediaUrl %>/640/<%= filename %>" media="(min-width: 480)">
+            <img srcset="<%= mediaUrl %>/320/<%= filename %>">
           </picture>
           PICTUREFILLTEMPLATE
         return picturefillDiv.result(binding)
