@@ -7,7 +7,7 @@ basedir:					"/"
 
 #mediaurl:					http://192.168.1.14
 mediaurl:					http://eick.co
-mediadir:					"/media/"
+mediadir:					"/media/photographs/"
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/New_York
