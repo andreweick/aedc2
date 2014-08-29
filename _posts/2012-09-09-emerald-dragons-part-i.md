@@ -28,7 +28,7 @@ One of Jasmine's soccer games from last June (2012).
 {% photo /original/2012/2012-08-19-1/06-09-emerald-dragons--2012-06-09at10-47-58.jpg "Emerald Dragons Part I" %}
 
 
-{% photo /original/2012/2012-08-19-1/06-09-emerald-dragons--2012-06-09at10-47-58(1).jpg "Emerald Dragons Part I" %}
+{% photo /original/2012/2012-08-19-1/06-09-emerald-dragons--2012-06-09at10-47-58-1.jpg "Emerald Dragons Part I" %}
 
 
 {% photo /original/2012/2012-08-19-1/06-09-emerald-dragons--2012-06-09at10-47-28.jpg "Emerald Dragons Part I" %}
