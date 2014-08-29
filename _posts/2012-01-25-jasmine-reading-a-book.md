@@ -8,8 +8,8 @@ categories:
 ---
 Jasmine reading a book.
 
-{% photo /original/2012/2012-01-25/2012-01-28%20at%2012-53-28-.jpg "Jasmine reading a book" %}
+{% photo /original/2012/2012-01-25/2012-01-28-at-12-53-28.jpg "Jasmine reading a book" %}
 
 
-{% photo /original/2012/2012-01-25/2012-01-28%20at%2012.53.38_Snapseed-.jpg "Jasmine in the light" %}
+{% photo /original/2012/2012-01-25/2012-01-28-at-12.53.38_Snapseed.jpg "Jasmine in the light" %}
 
