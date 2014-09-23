@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Institute for Modern Intelligence birthday
-date: 2014-04-07 1420
+date: 2014-04-07 14:20
 author: Andy Eick
 tags: work
 ---
