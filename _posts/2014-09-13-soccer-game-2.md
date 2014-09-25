@@ -9,61 +9,38 @@ tags:
 ---
 Second soccer game of the season, a tie.
 
-{% photo /original/2014/2014-09-06/soccer-game-1-2014-09-06-09-58-23.jpg "Game 2" %}
+{% photo /original/2014/2014-09-13/soccer-game-2-2014-09-13-09-57-43.jpg "Game 2" %}
 
-{% photo /original/2014/2014-09-06/soccer-game-1-2014-09-06-09-59-50.jpg "Game 2" %}
+{% photo /original/2014/2014-09-13/soccer-game-2-2014-09-13-09-59-03.jpg "Game 2" %}
 
-{% photo /original/2014/2014-09-06/soccer-game-1-2014-09-06-09-59-54.jpg "Game 2" %}
+{% photo /original/2014/2014-09-13/soccer-game-2-2014-09-13-09-59-04.jpg "Game 2" %}
 
-{% photo /original/2014/2014-09-06/soccer-game-1-2014-09-06-10-01-41.jpg "Game 2" %}
+{% photo /original/2014/2014-09-13/soccer-game-2-2014-09-13-10-03-45.jpg "Game 2" %}
 
-{% photo /original/2014/2014-09-06/soccer-game-1-2014-09-06-10-01-45.jpg "Game 2" %}
+{% photo /original/2014/2014-09-13/soccer-game-2-2014-09-13-10-05-02.jpg "Game 2" %}
 
-{% photo /original/2014/2014-09-06/soccer-game-1-2014-09-06-10-02-31.jpg "Game 2" %}
+{% photo /original/2014/2014-09-13/soccer-game-2-2014-09-13-10-06-52.jpg "Game 2" %}
 
-{% photo /original/2014/2014-09-06/soccer-game-1-2014-09-06-10-02-50.jpg "Game 2" %}
+{% photo /original/2014/2014-09-13/soccer-game-2-2014-09-13-10-08-29.jpg "Game 2" %}
 
-{% photo /original/2014/2014-09-06/soccer-game-1-2014-09-06-10-05-48.jpg "Game 2" %}
+{% photo /original/2014/2014-09-13/soccer-game-2-2014-09-13-10-08-56.jpg "Game 2" %}
 
-{% photo /original/2014/2014-09-06/soccer-game-1-2014-09-06-10-08-57.jpg "Game 2" %}
+{% photo /original/2014/2014-09-13/soccer-game-2-2014-09-13-10-10-34.jpg "Game 2" %}
 
-{% photo /original/2014/2014-09-06/soccer-game-1-2014-09-06-10-12-02.jpg "Game 2" %}
+{% photo /original/2014/2014-09-13/soccer-game-2-2014-09-13-10-10-50.jpg "Game 2" %}
 
-{% photo /original/2014/2014-09-06/soccer-game-1-2014-09-06-10-12-59.jpg "Game 2" %}
+{% photo /original/2014/2014-09-13/soccer-game-2-2014-09-13-10-11-32.jpg "Game 2" %}
 
-{% photo /original/2014/2014-09-06/soccer-game-1-2014-09-06-10-20-28.jpg "Game 2" %}
+{% photo /original/2014/2014-09-13/soccer-game-2-2014-09-13-10-21-02.jpg "Game 2" %}
 
-{% photo /original/2014/2014-09-06/soccer-game-1-2014-09-06-10-20-50.jpg "Game 2" %}
+{% photo /original/2014/2014-09-13/soccer-game-2-2014-09-13-10-22-39.jpg "Game 2" %}
 
-{% photo /original/2014/2014-09-06/soccer-game-1-2014-09-06-10-24-12.jpg "Game 2" %}
+{% photo /original/2014/2014-09-13/soccer-game-2-2014-09-13-10-24-16.jpg "Game 2" %}
 
-{% photo /original/2014/2014-09-06/soccer-game-1-2014-09-06-10-25-05.jpg "Game 2" %}
+{% photo /original/2014/2014-09-13/soccer-game-2-2014-09-13-10-57-29.jpg "Game 2" %}
 
-{% photo /original/2014/2014-09-06/soccer-game-1-2014-09-06-10-31-13.jpg "Game 2" %}
+{% photo /original/2014/2014-09-13/soccer-game-2-2014-09-13-10-58-19.jpg "Game 2" %}
 
-{% photo /original/2014/2014-09-06/soccer-game-1-2014-09-06-10-32-13.jpg "Game 2" %}
+{% photo /original/2014/2014-09-13/soccer-game-2-2014-09-13-11-01-35.jpg "Game 2" %}
 
-{% photo /original/2014/2014-09-06/soccer-game-1-2014-09-06-10-32-43.jpg "Game 2" %}
-
-{% photo /original/2014/2014-09-06/soccer-game-1-2014-09-06-10-34-11.jpg "Game 2" %}
-
-{% photo /original/2014/2014-09-06/soccer-game-1-2014-09-06-10-36-35.jpg "Game 2" %}
-
-{% photo /original/2014/2014-09-06/soccer-game-1-2014-09-06-10-39-13.jpg "Game 2" %}
-
-{% photo /original/2014/2014-09-06/soccer-game-1-2014-09-06-10-42-03.jpg "Game 2" %}
-
-{% photo /original/2014/2014-09-06/soccer-game-1-2014-09-06-10-49-28.jpg "Game 2" %}
-
-{% photo /original/2014/2014-09-06/soccer-game-1-2014-09-06-10-50-25.jpg "Game 2" %}
-
-{% photo /original/2014/2014-09-06/soccer-game-1-2014-09-06-10-55-45.jpg "Game 2" %}
-
-{% photo /original/2014/2014-09-06/soccer-game-1-2014-09-06-10-56-34.jpg "Game 2" %}
-
-{% photo /original/2014/2014-09-06/soccer-game-1-2014-09-06-10-57-45.jpg "Game 2" %}
-
-{% photo /original/2014/2014-09-06/soccer-game-1-2014-09-06-11-01-09.jpg "Game 2" %}
-
-{% photo /original/2014/2014-09-06/soccer-game-1-2014-09-06-11-01-33.jpg "Game 2" %}
-
+{% photo /original/2014/2014-09-13/soccer-game-2-2014-09-13-11-01-43.jpg "Game 2" %}

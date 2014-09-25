@@ -8,8 +8,6 @@ tags:
 ---
 Empire Challenge 2014, Death Valley, California
 
-{% photo /original/2014/2014-07-13/EC14-2014-07-13-21-07-31.jpg "Empire Challenge 2014" %}
-
 {% photo /original/2014/2014-07-14/EC14-2014-07-14-21-59-11.jpg "Empire Challenge 2014" %}
 
 {% photo /original/2014/2014-07-14/EC14-2014-07-14-23-35-08.jpg "Empire Challenge 2014" %}
